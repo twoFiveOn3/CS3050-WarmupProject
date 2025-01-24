@@ -8,5 +8,5 @@ app = firebase_admin.initialize_app(cred)
 
 db = firestore.client()
 
-doc_ref = db.collection("users").document("alovelace")
-doc_ref.set({"first": "Ada", "last": "Lovelace", "born": 1815})
+doc_ref.set({"cars": cars}
+
