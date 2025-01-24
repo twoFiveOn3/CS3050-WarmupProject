@@ -3,4 +3,8 @@
 !README.md
 !TestingPyParsing.py
 !firestore.py
+<<<<<<< HEAD
 !cars.json
+=======
+!admin.py
+>>>>>>> 0079c70609fccc34ab051be1817852af4feb882b
