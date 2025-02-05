@@ -2,52 +2,19 @@ from enum import Enum
 import firebase_admin
 import json
 import os
-from dataclasses import dataclass
+
 from firebase_admin import credentials
 from firebase_admin import firestore
 from google.cloud.firestore import FieldFilter
 
+from car import Car
 
 
-cred = credentials.Certificate(f"{os.getcwd()}/firebase_secrets.json")
-app = firebase_admin.initialize_app(cred)
-db = firestore.client()
+#NOTE: eventually removed when we call auth() in parser 
+from auth import auth
+auth()
 
 
-class Car:
-    def __init__(self, all_wheel, dealer_cost, horsepower, msrp, name):
-        self.all_wheel = all_wheel
-        self.dealer_cost = dealer_cost
-        self.horsepower = horsepower
-        self.msrp = msrp
-        self.name = name
-    
-    @staticmethod
-    def print_cars(cars: list[dict]):
-        for car in cars:
-            print(car)
-
-    @staticmethod
-    def from_dict(source):
-        return Car(**source)
-
-    def to_dict(self):
-        return {
-            "all_wheel": self.all_wheel,
-            "dealer_cost": self.dealer_cost,
-            "horsepower": self.horsepower,
-            "msrp": self.msrp,
-            "name": self.name
-        }
-    
-    def __repr__(self):
-        return f"Car(\
-                all_wheel={self.all_wheel}, \
-                dealer_cost={self.dealer_cost}, \
-                horsepower={self.horsepower}, \
-                msrp={self.msrp}, \
-                name={self.name}\
-            )"
 
 
 
@@ -68,6 +35,8 @@ class InterfaceError(Exception):
 # TODO: maybe add redundancy in the parser so users can search for fields in multiple ways
 #  ie: 'horse power' or 'horse power'
 def make_query(params: list):
+
+    db = firestore.client()
     #TODO: help command 
     if len(params) < 1:
         raise InterfaceError
@@ -133,11 +102,6 @@ def make_query(params: list):
     if len(params) > 2:
         raise InterfaceError
         
-
-
-
-    
-
 
 # in the while loop polling for query requests, before doing the query we must check is the user entered 'help' or 'quit'
 
