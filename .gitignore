@@ -5,4 +5,5 @@
 !firestore.py
 !cars.json
 !admin.py
-!data_init_test.py
+!query.py
+!auth.py
