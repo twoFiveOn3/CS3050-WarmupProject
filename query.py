@@ -15,9 +15,6 @@ from auth import auth
 auth()
 
 
-
-
-
 class QueryVal(Enum):
     MAKE = 0
     MODEL = 1
@@ -34,6 +31,7 @@ class InterfaceError(Exception):
 
 # TODO: maybe add redundancy in the parser so users can search for fields in multiple ways
 #  ie: 'horse power' or 'horse power'
+#NOTE: think the reason he wants it to be encapsulated is so you can't do queries outside of the grammar, but grammar is all basic operations anyway
 def make_query(params: list):
 
     db = firestore.client()
@@ -49,7 +47,7 @@ def make_query(params: list):
         #NOTE: depending on what parsed params are, don't need this 
         # if field == something like "CAR_NAME" we would use these ifs to change "CAR_NAME" to "name" (matches the field in the database)
         if field == QueryVal.MAKE.value:
-            # do query
+            
            pass
         if field == QueryVal.MODEL.value:
             # ...
@@ -88,8 +86,6 @@ def make_query(params: list):
         request_2 = params[1][2]
 
         # do the same for 2 params
-
-        #NOTE: for 2 queries, can do AND and OR 
 
         #AND
         doc_ref = db.collection("cars").where(filter=FieldFilter(field_1, operator_1, request_1)).where(
