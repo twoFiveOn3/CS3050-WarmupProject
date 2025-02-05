@@ -5,7 +5,7 @@ import sys
 from firebase_admin import credentials
 from firebase_admin import firestore
 
-
+#set up connection to firebase
 cred = credentials.Certificate(f"{os.getcwd()}/firebase_secrets.json")
 app = firebase_admin.initialize_app(cred)
 db = firestore.client()
@@ -13,6 +13,8 @@ db = firestore.client()
 
 def main():
     user_input = sys.argv[1]
+    
+    #check if input
     if len(sys.argv) == 0:
         print("Give json file name")
         return
@@ -44,6 +46,7 @@ def create_docs(json_file: str):
 def drop_collection():
     docs = db.collection("cars").stream()
     batch = db.batch()
+
     for doc in docs:
         print(f"deleting {doc.id}")
         batch.delete(doc.reference)
