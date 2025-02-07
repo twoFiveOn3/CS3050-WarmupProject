@@ -10,12 +10,9 @@ from google.cloud.firestore import FieldFilter
 from car import Car
 
 
-#NOTE: eventually removed when we call auth() in parser 
+# NOTE: eventually removed when we call auth() in parser
 from auth import auth
 auth()
-
-
-
 
 
 class QueryVal(Enum):
@@ -27,57 +24,60 @@ class QueryVal(Enum):
     HORSEPOWER = 5
 
 
+class DBVal(Enum):
+    MAKE = 'make'
+    MODEL = 'model'
+    ALL_WHEEL = 'all_wheel'
+    MSRP = 'msrp'
+    DEALER_COST = 'dealer_cost'
+    HORSEPOWER = 'horsepower'
+
+
 # base exception class for the interface
 class InterfaceError(Exception):
     pass
 
 
-# TODO: maybe add redundancy in the parser so users can search for fields in multiple ways
-#  ie: 'horse power' or 'horse power'
+def set_field(field):
+    if field == QueryVal.MAKE.value:
+        field = DBVal.MAKE.value
+    if field == QueryVal.MODEL.value:
+        field = DBVal.MODEL.value
+    if field == QueryVal.ALL_WHEEL.value:
+        field = DBVal.ALL_WHEEL.value
+    if field == QueryVal.MSRP.value:
+        field = DBVal.MSRP.value
+    if field == QueryVal.DEALER_COST.value:
+        field = DBVal.DEALER_COST.value
+    if field == QueryVal.HORSEPOWER.value:
+        field = DBVal.HORSEPOWER.value
+    return field
+
+
 def make_query(params: list):
 
     db = firestore.client()
     #TODO: help command 
     if len(params) < 1:
         raise InterfaceError
-    if len(params) == 1:  # non compound query
 
+    # non compound query
+    if len(params) == 1:
         field = params[0][0]  # ex: will be one of the enumerated types specified above
         operator = params[0][1]  # ex: ==
         request = params[0][2]  # ex: 'Honda'
 
-        #NOTE: depending on what parsed params are, don't need this 
-        # if field == something like "CAR_NAME" we would use these ifs to change "CAR_NAME" to "name" (matches the field in the database)
-        if field == QueryVal.MAKE.value:
-            # do query
-           pass
-        if field == QueryVal.MODEL.value:
-            # ...
-            pass
-        if field == QueryVal.ALL_WHEEL.value:
-            #...
-            pass
-        if field == QueryVal.MSRP.value:
-            # ...
-            pass
-        if field == QueryVal.DEALER_COST.value:
-            # ...
-            pass
-        if field == QueryVal.HORSEPOWER.value:
-            # ...
-            pass
-        #NOTE: this should work for all len(params[1]) == 1
-        #TODO: make function params = field,operator,request 
+        # formatting field to be correct to make query, operator and request are fir right now
+        field = set_field(field)
+
+        # NOTE: this should work for all len(params[1]) == 1
         doc_ref = db.collection("cars").where(filter=FieldFilter(field, operator, request)).stream()
         cars: list[Car] = [Car.from_dict(doc.to_dict()) for doc in doc_ref]
         Car.print_cars(cars)
-        return cars 
+        return cars
 
-
-        
-
-    if len(params) == 2:  # compound query
-        # TODO: make all cases for compound queries
+    # compound query
+    if len(params) == 2:
         field_1 = params[0][0]
         field_2 = params[1][0]
 
@@ -88,8 +88,8 @@ def make_query(params: list):
         request_2 = params[1][2]
 
         # do the same for 2 params
-
-        #NOTE: for 2 queries, can do AND and OR 
+        field_1 = set_field(field_1)
+        field_2 = set_field(field_2)
 
         #AND
         doc_ref = db.collection("cars").where(filter=FieldFilter(field_1, operator_1, request_1)).where(
@@ -102,8 +102,6 @@ def make_query(params: list):
     if len(params) > 2:
         raise InterfaceError
         
-
-# in the while loop polling for query requests, before doing the query we must check is the user entered 'help' or 'quit'
 
 #for testing 
 #make_query([["name", "==", "Mini Cooper"]])
