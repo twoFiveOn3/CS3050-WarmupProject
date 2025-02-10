@@ -103,7 +103,7 @@ def make_query(params: list):
 
 #for testing 
 #make_query([["name", "==", "Mini Cooper"]])
-#make_query([["msrp", ">", 30000]])
+#make_query([["msrp", ">", 30000]])p
 make_query([["msrp", ">", 30000], ["horsepower", ">", 300]])
 
 
