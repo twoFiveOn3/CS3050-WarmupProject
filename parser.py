@@ -1,4 +1,5 @@
 from pyparsing import *
+from query import make_query
 
 def parse(querystring: str):
     # remove newline from whitespace characters, because newline terminates queries
@@ -25,13 +26,24 @@ def parse(querystring: str):
     query = querytriplet + ZeroOrMore(additionalcondition)
     parsedquery = query.parseString(querystring)
     
+    #TODO: return parsed query as a list of lists
     print(parsedquery)
 
-parse("make is toyota")
+    
+
+
 #for testing 
-#make_query([["name", "==", "Mini Cooper"]])
+parse("make is toyota")
+
+
+#TODO: parser gets rid of "Cooper" in "Mini Cooper"
 parse("name == Mini Cooper")
 #make_query([["msrp", ">", 30000]])
-parse("msrp > 30000")
+parsed_str = parse("msrp > 30000")
+make_query(parsed_str)
+
 #make_query([["msrp", ">", 30000], ["horsepower", ">", 300]])
-parse("msrp > 30000 AND horsepower > 300")
+
+#TODO: parser returns ['msrp', '>', '30000', 'and', 'horsepower', '>', '300'] instead of [['msrp', '>', '30000'], ['horsepower', '>', '300']]
+parsed_str = parse("msrp > 30000 and horsepower > 300")
+make_query(parsed_str)

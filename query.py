@@ -55,7 +55,7 @@ def set_field(field):
 
 
 def make_query(params: list):
-
+    doc_ref = None
     db = firestore.client()
     #TODO: help command 
     if len(params) < 1:
@@ -72,10 +72,8 @@ def make_query(params: list):
 
         # NOTE: this should work for all len(params[1]) == 1
         doc_ref = db.collection("cars").where(filter=FieldFilter(field, operator, request)).stream()
-        cars: list[Car] = [Car.from_dict(doc.to_dict()) for doc in doc_ref]
-        Car.print_cars(cars)
-        return cars
-
+       
+       
     # compound query
     if len(params) == 2:
         field_1 = params[0][0]
@@ -95,12 +93,17 @@ def make_query(params: list):
         doc_ref = db.collection("cars").where(filter=FieldFilter(field_1, operator_1, request_1)).where(
             filter=FieldFilter(field_2, operator_2, request_2)
             ).stream()
-        cars: list[Car] = [Car.from_dict(doc.to_dict()) for doc in doc_ref]
-        Car.print_cars(cars)
-        return cars 
+        
+    cars = [Car.from_dict(doc.to_dict()) for doc in doc_ref]
+    
+    if len(cars) == 0:
+        print("No cars found")    
+        return 
 
     if len(params) > 2:
         raise InterfaceError
+    
+    Car.print_cars(cars)
         
 
 #for testing 

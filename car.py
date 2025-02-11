@@ -26,10 +26,4 @@ class Car:
     
     #TODO: make output string look nice 
     def __repr__(self):
-        return f"Car(\
-                all_wheel={self.all_wheel}, \
-                dealer_cost={self.dealer_cost}, \
-                horsepower={self.horsepower}, \
-                msrp={self.msrp}, \
-                name={self.name}\
-            )"
+        return f"{self.name}, msrp = {self.msrp}, horsepower = {self.horsepower}, dealer price = {self.dealer_cost}, all wheel = {self.all_wheel}"
