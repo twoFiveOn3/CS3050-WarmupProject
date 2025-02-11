@@ -6,18 +6,15 @@ import firebase_admin
 from auth import auth
 from firebase_admin import firestore
 
-
-
-
 def main():
     auth()
 
-    user_input = sys.argv[1]
-
     # check if input
-    if len(sys.argv) == 0:
-        print("Give json file name")
+    if len(sys.argv) < 2: #argv always has length >= 1 because argv[0] is the program name
+        print("Usage: admin.py <json-filename>")
         return
+    
+    user_input = sys.argv[1]
 
     # check if json file exists before deleting
     if not os.path.exists(f"{user_input}"):
@@ -33,7 +30,7 @@ def create_docs(json_file: str):
     db = firestore.client()
     batch = db.batch()
 
-    with open(f'{json_file}') as file:
+    with open(f"{json_file}") as file:
         data = json.load(file)
 
     for car in data:
@@ -57,3 +54,4 @@ def drop_collection():
 
 
 main()
+
