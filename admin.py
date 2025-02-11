@@ -8,7 +8,6 @@ from firebase_admin import firestore
 
 
 
-
 def main():
     auth()
 
