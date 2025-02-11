@@ -1,4 +1,5 @@
 # created by virtualenv automatically
+# this file is stupid
 *
 !README.md
 !TestingPyParsing.py
@@ -8,3 +9,4 @@
 !query.py
 !auth.py
 !car.py
+!parser.py
