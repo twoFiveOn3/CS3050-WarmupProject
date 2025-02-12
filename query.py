@@ -11,10 +11,10 @@ from car import Car
 
 
 def translate_fieldname(field):
-	field = lower(field)
+	field = field.lower()
 	if field == "awd":
 		field = "all_wheel"
-	elif field == "price"
+	elif field == "price":
 		field = "dealer_cost"
 	return field
 
@@ -35,12 +35,13 @@ def make_query(params: list):
     if len(params) < 1:
         raise InterfaceError
 
-	doc_ref = db.collection("cars")
-	for (field, op, value) in params:
-        field = translate(field)
-		op = translate_op(op)
-		doc_ref = doc_ref.where(filter(FieldFilter(field, op, value)))
-
+    doc_ref = db.collection("cars")
+    for (field, op, value) in params:
+        field = translate_fieldname(field)
+        op = translate_op(op)
+        print(field, op, value)
+        doc_ref = doc_ref.where(filter=FieldFilter(field, op, value)).stream()
+        print(doc_ref)
     cars = [Car.from_dict(doc.to_dict()) for doc in doc_ref]
     
     if len(cars) == 0:

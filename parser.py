@@ -35,9 +35,9 @@ def parse(query_string: str):
     
     
     #TODO: return parsed query as a list of lists
-   # rtn = [parsed_query[i:i + 3] for i in range(0, len(parsed_query)), 3)]
-   # print(rtn)
-   # print([[*parsed_query]])
+    rtn = [parsed_query[i:i + 3] for i in range(0, len(parsed_query), 3)]
+    print(rtn)
+    return rtn
 
     
 
