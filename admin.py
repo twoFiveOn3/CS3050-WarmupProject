@@ -56,9 +56,9 @@ def create_docs(json_file: str):
     with open(f"{json_file}") as file:
         data = json.load(file)
 
+    print("Creating documents...")
     for car in data:
         doc_ref = db.collection("cars").document()
-        print(f"commited {car['name']} to be created")
         batch.set(doc_ref, car)
 
     batch.commit()
@@ -69,8 +69,8 @@ def drop_collection():
     docs = db.collection("cars").stream()
     batch = db.batch()
 
+    print("Dropping collection...")
     for doc in docs:
-        print(f"deleting {doc.id}")
         batch.delete(doc.reference)
 
     batch.commit()
@@ -84,7 +84,6 @@ def print_help_menu():
           "To search for a field longer than one word, wrap the field with double quotes \n"
           "For help: type 'help' to see this menu again \n"
           "To exit: type 'quit' ")
-
 
 main()
 

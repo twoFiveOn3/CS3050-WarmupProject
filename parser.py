@@ -32,8 +32,11 @@ def parse(query_string: str):
     query = query_triplet + ZeroOrMore(additional_condition)
     parsed_query = query.parseString(query_string)
     
+    
     #TODO: return parsed query as a list of lists
-    print(parsed_query)
+   # rtn = [parsed_query[i:i + 3] for i in range(0, len(parsed_query)), 3)]
+   # print(rtn)
+   # print([[*parsed_query]])
 
     
 

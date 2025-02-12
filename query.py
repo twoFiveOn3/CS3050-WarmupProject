@@ -10,9 +10,6 @@ from google.cloud.firestore import FieldFilter
 from car import Car
 
 
-# NOTE: eventually removed when we call auth() in parser
-from auth import auth
-auth()
 
 
 class QueryVal(Enum):
@@ -109,7 +106,7 @@ def make_query(params: list):
 #for testing 
 #make_query([["name", "==", "Mini Cooper"]])
 #make_query([["msrp", ">", 30000]])p
-make_query([["msrp", ">", 30000], ["horsepower", ">", 300]])
+#make_query([["msrp", ">", 30000], ["horsepower", ">", 300]])
 
 
     
