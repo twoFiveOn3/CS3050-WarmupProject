@@ -8,7 +8,8 @@ from firebase_admin import firestore
 from google.cloud.firestore import FieldFilter
 
 from car import Car
-
+from auth import auth
+auth()
 
 def translate_fieldname(field):
 	field = field.lower()
@@ -35,13 +36,16 @@ def make_query(params: list):
     if len(params) < 1:
         raise InterfaceError
 
-    doc_ref = db.collection("cars")
+   
     for (field, op, value) in params:
+        print(field, op, value, "IN FOR")
         field = translate_fieldname(field)
         op = translate_op(op)
-        print(field, op, value)
-        doc_ref = doc_ref.where(filter=FieldFilter(field, op, value)).stream()
+        
+        ds = doc_ref.where(filter=FieldFilter(field, op, value)).stream()
         print(doc_ref)
+    
+    
     cars = [Car.from_dict(doc.to_dict()) for doc in doc_ref]
     
     if len(cars) == 0:
@@ -53,8 +57,8 @@ def make_query(params: list):
 
 #for testing 
 #make_query([["name", "==", "Mini Cooper"]])
-#make_query([["msrp", ">", 30000]])p
-#make_query([["msrp", ">", 30000], ["horsepower", ">", 300]])
+#make_query([["msrp", ">", 30000]])
+make_query([["msrp", ">", 30000], ["horsepower", ">", 300]])
 
 
     

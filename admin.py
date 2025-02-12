@@ -30,6 +30,7 @@ def main():
     usr_query = ''
     print_help_menu()
     # begin while loop polling for using input
+
     while usr_query.lower() != 'quit':
         usr_query = input('> ')
         if usr_query.lower() == 'help':
@@ -39,7 +40,10 @@ def main():
             exit()
         # otherwise call parse
         try:
+            print("hello")
             query_elems = parse(usr_query)
+            
+            print(query_elems)
             make_query(query_elems)
         except Exception as e:
             print("Error: ", e, "try again, for help making a query, type 'help'")
