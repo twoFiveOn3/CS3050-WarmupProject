@@ -15,8 +15,9 @@ def parse(query_string: str):
     alphabetic_field   = CaselessKeyword("make") | CaselessKeyword("model")
     boolean_field      = CaselessKeyword("awd")
 	
+    multiword = Suppress("\"") + Combine(Word(alphas) + ZeroOrMore(" " + Word(alphas))) + Suppress("\"")
     numeric_value      = Combine(Word(nums) + Optional("." + Word(nums)))
-    alphabetic_value   = Word(alphas) | Combine(Keyword("\"") + Word(nums) + Keyword("\"")).leave_whitespace()
+    alphabetic_value   = Word(alphas) | multiword 
     boolean_value      = CaselessKeyword("true") | CaselessKeyword("false")
 
     numeric_triplet    = numeric_field    + op + numeric_value
@@ -43,7 +44,7 @@ parse("make is toyota")
 
 
 #TODO: parser gets rid of "Cooper" in "Mini Cooper"
-parse("make == Mini Cooper")
+parse("make == \"Mini Cooper\"")
 #make_query([["msrp", ">", 30000]])
 parsed_str = parse("msrp > 30000")
 #make_query(parsed_str)
