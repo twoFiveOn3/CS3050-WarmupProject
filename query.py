@@ -8,8 +8,7 @@ from firebase_admin import firestore
 from google.cloud.firestore import FieldFilter
 
 from car import Car
-from auth import auth
-auth()
+
 
 def translate_fieldname(field):
 	field = field.lower()
@@ -58,7 +57,7 @@ def make_query(params: list):
 #for testing 
 #make_query([["name", "==", "Mini Cooper"]])
 #make_query([["msrp", ">", 30000]])
-make_query([["msrp", ">", 30000], ["horsepower", ">", 300]])
+#make_query([["msrp", ">", 30000], ["horsepower", ">", 300]])
 
 
     
