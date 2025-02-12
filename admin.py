@@ -6,7 +6,8 @@ import firebase_admin
 from auth import auth
 from firebase_admin import firestore
 from parser import parse
-from query import make_query
+from query_test import make_query
+from car import Car
 
 
 def main():
@@ -43,7 +44,7 @@ def main():
             print("hello")
             query_elems = parse(usr_query)
             
-            print(query_elems)
+            print("From admin", query_elems)
             make_query(query_elems)
         except Exception as e:
             print("Error: ", e, "try again, for help making a query, type 'help'")
