@@ -16,7 +16,7 @@ def parse(query_string: str):
     boolean_field      = CaselessKeyword("awd")
 	
     numeric_value      = Combine(Word(nums) + Optional("." + Word(nums)))
-    alphabetic_value   = Word(alphas)
+    alphabetic_value   = Word(alphas) | Combine(Keyword("\"") + Word(nums) + Keyword("\"")).leave_whitespace()
     boolean_value      = CaselessKeyword("true") | CaselessKeyword("false")
 
     numeric_triplet    = numeric_field    + op + numeric_value
