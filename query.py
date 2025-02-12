@@ -36,14 +36,25 @@ def make_query(params: list):
     if len(params) < 1:
         raise InterfaceError
 
-   
+	results = []   
     for (field, op, value) in params:
         print(field, op, value, "IN FOR")
         field = translate_fieldname(field)
         op = translate_op(op)
         
-        ds = doc_ref.where(filter=FieldFilter(field, op, value)).stream()
-        print(doc_ref)
+        query_result = doc_ref.where(filter=FieldFilter(field, op, value)).stream()
+        
+		new_cars = [Car.from_dict(doc.to_dict()) for doc in query_result]
+        
+		if results == []:
+             results = new_cars
+        else:
+			 new_result = []
+             for car in new_cars:
+                 if car in results:
+                     new_result.append(car)
+             results = new_result
+                     
     
     
     cars = [Car.from_dict(doc.to_dict()) for doc in doc_ref]
