@@ -38,8 +38,12 @@ def main():
         if usr_query.lower() == 'quit':
             exit()
         # otherwise call parse
-        query_elems = parse(usr_query)
-        make_query(query_elems)
+        try:
+            query_elems = parse(usr_query)
+            make_query(query_elems)
+        except Exception as e:
+            print("Error: ", e, "try again, for help making a query, type 'help'")
+            continue
         # print return data
         usr_query = input('> ')
 
