@@ -34,6 +34,7 @@ def main():
         usr_query = input('> ')
         if usr_query.lower() == 'help':
             print_help_menu()
+            continue  # restart while loop
         if usr_query.lower() == 'quit':
             exit()
         # otherwise call parse
@@ -69,6 +70,7 @@ def drop_collection():
         batch.delete(doc.reference)
 
     batch.commit()
+
 
 def print_help_menu():
     print("Query should be in the form: <field> <operator> <delimiter>\n"
