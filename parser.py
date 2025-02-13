@@ -1,5 +1,5 @@
 from pyparsing import *
-from query_test import make_query
+from query import make_query
 from auth import auth
 
 def parse(query_string: str):
@@ -36,9 +36,8 @@ def parse(query_string: str):
     parsed_query = query.parseString(query_string)
     
     
-    #TODO: return parsed query as a list of lists
+    #from stack overflow 
     rtn = [parsed_query[i:i + 3] for i in range(0, len(parsed_query), 3)]
-    print(rtn, "THIS IS RTN IN PARSER")
     return rtn
 
 def interface():
@@ -47,8 +46,6 @@ def interface():
     print_help_menu()
     # begin while loop polling for using input
 
-    #this works 
-    #make_query([["msrp", ">", 30000]])
     while usr_query.lower() != 'quit':
         usr_query = input('> ')
         if usr_query.lower() == 'help':
@@ -76,19 +73,3 @@ def print_help_menu():
     
 interface()
 
-
-#for testing 
-#parse("make is toyota")
-
-
-#TODO: parser gets rid of "Cooper" in "Mini Cooper"
-#parse("make == \"Mini Cooper\"")
-#make_query([["msrp", ">", 30000]])
-#parsed_str = parse("msrp > 30000")
-#make_query(parsed_str)
-
-#make_query([["msrp", ">", 30000], ["horsepower", ">", 300]])
-
-#TODO: parser returns ['msrp', '>', '30000', 'and', 'horsepower', '>', '300'] instead of [['msrp', '>', '30000'], ['horsepower', '>', '300']]
-#parsed_str = parse("msrp > 30000 and horsepower > 300")
-#make_query(parsed_str)

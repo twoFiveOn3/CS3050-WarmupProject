@@ -29,9 +29,6 @@ def main():
     create_docs(user_input)
 
     
-
-
-
 def create_docs(json_file: str):
     data = []
     db = firestore.client()
@@ -59,8 +56,6 @@ def drop_collection():
         batch.delete(doc.reference)
 
     batch.commit()
-
-
 
 main()
 

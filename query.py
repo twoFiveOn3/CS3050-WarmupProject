@@ -1,9 +1,8 @@
 from enum import Enum
-from firebase_admin import credentials
 from firebase_admin import firestore
 from google.cloud.firestore import FieldFilter
 from car import Car
-from auth import auth
+
 
 
 # base exception class for the interface
@@ -51,9 +50,6 @@ def make_query(params):
         field = set_field(params[0][0])  # ex: will be one of the enumerated types specified above
         operator = set_operator(params[0][1])  # ex: ==
         request = set_request(params[0][2], field)  # ex: 'Honda'
-    
-        print(field, operator, request, "FIELD, OPERATOR, REQUEST")
-        # formatting field to be correct to make query, operator and request are fir right now
         
 
         # NOTE: this should work for all len(params[1]) == 1
