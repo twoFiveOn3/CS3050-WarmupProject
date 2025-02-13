@@ -3,6 +3,9 @@ from pyparsing import *
 def parse(query_string: str):
     # remove newline from whitespace characters, because newline terminates queries
     ParserElement.set_default_whitespace_chars(' \t')
+
+    # mark the end of the query string with a newline
+    query_string += "\n"
     
     # The operator set is small enough that they can be written explicitely
     # Every operator has a negative, which paired with 'or' and the demorgan laws would allow any
@@ -29,26 +32,10 @@ def parse(query_string: str):
     additional_condition = Suppress(CaselessKeyword("and")) + query_triplet
 
     # we have one (fieldname op value) triplet, then 0 or more (and fieldname op value) quads
-    # restricting the ql to a single 'and' is lazy and we're not doing it. I will fix the query function if that's a problem.
-    query = query_triplet + ZeroOrMore(additional_condition)
+    # testing for newline prevents partially valid queries from being matched
+    query = query_triplet + ZeroOrMore(additional_condition) + Suppress("\n")
+
+    # subject the query string to the parser contraints layed out
+    # this is notably the only call to parseString
     parsed_query = query.parseString(query_string)	
-    print(parsed_query)   
     return parsed_query
-    
-
-
-#for testing 
-parse("make is toyota")
-
-
-#TODO: parser gets rid of "Cooper" in "Mini Cooper"
-parse("make == \"Mini Cooper\"")
-#make_query([["msrp", ">", 30000]])
-parsed_str = parse("msrp > 30000")
-#make_query(parsed_str)
-
-#make_query([["msrp", ">", 30000], ["horsepower", ">", 300]])
-
-#TODO: parser returns ['msrp', '>', '30000', 'and', 'horsepower', '>', '300'] instead of [['msrp', '>', '30000'], ['horsepower', '>', '300']]
-parsed_str = parse("msrp > 30000 and horsepower > 300")
-#make_query(parsed_str)
