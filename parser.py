@@ -4,7 +4,7 @@ def parse(query_string: str):
     # remove newline from whitespace characters, because newline terminates queries
     ParserElement.set_default_whitespace_chars(' \t')
     
-	# The operator set is small enough that they can be written explicitely
+    # The operator set is small enough that they can be written explicitely
     # Every operator has a negative, which paired with 'or' and the demorgan laws would allow any
     # logical expression to be representable, but oh well.
     op = (  Keyword("==") | Keyword("!=") | Keyword("is") | 
@@ -20,25 +20,20 @@ def parse(query_string: str):
     alphabetic_value   = Word(alphas) | multiword 
     boolean_value      = CaselessKeyword("true") | CaselessKeyword("false")
 
-    numeric_triplet    = numeric_field    + op + numeric_value
-    alphabetic_triplet = alphabetic_field + op + alphabetic_value
-    boolean_triplet    = boolean_field    + op + boolean_value
+    numeric_triplet    = Group(numeric_field    + op + numeric_value)
+    alphabetic_triplet = Group(alphabetic_field + op + alphabetic_value)
+    boolean_triplet    = Group(boolean_field    + op + boolean_value)
 
     query_triplet      = numeric_triplet | alphabetic_triplet | boolean_triplet
 
     additional_condition = Suppress(CaselessKeyword("and")) + query_triplet
-    
+
     # we have one (fieldname op value) triplet, then 0 or more (and fieldname op value) quads
     # restricting the ql to a single 'and' is lazy and we're not doing it. I will fix the query function if that's a problem.
     query = query_triplet + ZeroOrMore(additional_condition)
-    parsed_query = query.parseString(query_string)
-    
-    
-    #TODO: return parsed query as a list of lists
-    rtn = [parsed_query[i:i + 3] for i in range(0, len(parsed_query), 3)]
-    print(rtn)
-    return rtn
-
+    parsed_query = query.parseString(query_string)	
+    print(parsed_query)   
+    return parsed_query
     
 
 
