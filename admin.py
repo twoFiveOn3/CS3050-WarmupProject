@@ -21,12 +21,12 @@ def main():
     user_input = sys.argv[1]
 
     # check if json file exists before deleting
-    if not os.path.exists(f"{user_input}"):
-        print(f"file {user_input} does not exist")
-        return
+    # if not os.path.exists(f"{user_input}"):
+    #     print(f"file {user_input} does not exist")
+    #     return
 
-    drop_collection()
-    create_docs(user_input)
+    #drop_collection()
+    #create_docs(user_input)
 
     usr_query = ''
     print_help_menu()

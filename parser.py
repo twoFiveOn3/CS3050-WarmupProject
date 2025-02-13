@@ -16,7 +16,7 @@ def parse(query_string: str):
     boolean_field      = CaselessKeyword("awd")
 	
     multiword = Suppress("\"") + Combine(Word(alphas) + ZeroOrMore(" " + Word(alphas))) + Suppress("\"")
-    numeric_value      = Combine(Word(nums) + Optional("." + Word(nums)))
+    numeric_value      = Combine(Word(nums) + Optional("." + Word(nums))).setParseAction(lambda t: int(t[0]))
     alphabetic_value   = Word(alphas) | multiword 
     boolean_value      = CaselessKeyword("true") | CaselessKeyword("false")
 

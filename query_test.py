@@ -59,8 +59,10 @@ def set_field(field):
 
 
 def make_query(params: list):
-    doc_ref = None
+    #doc_ref = None
+    #doc_ref = []
     db = firestore.client()
+    #nest params further
     #TODO: help command 
     if len(params) < 1:
         raise InterfaceError
@@ -68,17 +70,20 @@ def make_query(params: list):
     print("PARAMS", params)
     # non compound query
     if len(params) == 1:
-        print(params, "PARAMS IN IF")
+
+        # print(params, "PARAMS IN IF")
         field = params[0][0]  # ex: will be one of the enumerated types specified above
         operator = params[0][1]  # ex: ==
         request = params[0][2]  # ex: 'Honda'
-        
-        print(field, operator, request, "FIELD, OPERATOR, REQUEST")
+        #
+        # print(field, operator, request, "FIELD, OPERATOR, REQUEST")
         # formatting field to be correct to make query, operator and request are fir right now
+
 
 
         # NOTE: this should work for all len(params[1]) == 1
         doc_ref = db.collection("cars").where(filter=FieldFilter(field, operator, request)).stream()
+        # doc_ref = db.collection("cars").where(filter=FieldFilter(params[0], params[1], params[2])).stream()
        
        
     # compound query
@@ -100,8 +105,13 @@ def make_query(params: list):
             filter=FieldFilter(field_2, operator_2, request_2)
             ).stream()
         
-    cars = [Car.from_dict(doc.to_dict()) for doc in doc_ref]
-    print("THIS IS CARS", cars)
+    #cars = [Car.from_dict(doc.to_dict()) for doc in doc_ref]
+    cars = []
+    for car in doc_ref:
+        newCar = car.to_dict()
+        cars.append(Car(**newCar))
+
+    #print("THIS IS CARS", cars)
     if len(cars) == 0:
         print("No cars found")    
         return 

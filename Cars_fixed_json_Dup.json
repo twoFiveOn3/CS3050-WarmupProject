@@ -1,0 +1,3427 @@
+[
+  {
+    "make": "Chevrolet",
+    "model": "Aveo 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 11690,
+    "dealer_cost": 10965,
+    "horsepower": 103
+  
+	},
+  {
+    "make": "Chevrolet",
+    "model": "Aveo LS 4dr hatch",
+    "all_wheel": "FALSE",
+    "msrp": 12585,
+    "dealer_cost": 11802,
+    "horsepower": 103
+	},
+  {
+    "make": "Chevrolet",
+    "model": "Cavalier 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 14610,
+    "dealer_cost": 13697,
+    "horsepower": 140
+	},
+  {
+    "make": "Chevrolet",
+    "model": "Cavalier 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 14810,
+    "dealer_cost": 13884,
+    "horsepower": 140
+	},
+  {
+    "make": "Chevrolet",
+    "model": "Cavalier LS 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 16385,
+    "dealer_cost": 15357,
+    "horsepower": 140
+	},
+  {
+    "make": "Dodge",
+    "model": "Neon SE 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 13670,
+    "dealer_cost": 12849,
+    "horsepower": 132
+	},
+  {
+    "make": "Dodge",
+    "model": "Neon SXT 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 15040,
+    "dealer_cost": 14086,
+    "horsepower": 132
+	},
+  {
+    "make": "Ford",
+    "model": "Focus ZX3 2dr hatch",
+    "all_wheel": "FALSE",
+    "msrp": 13270,
+    "dealer_cost": 12482,
+    "horsepower": 130
+	},
+  {
+    "make": "Ford",
+    "model": "Focus LX 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 13730,
+    "dealer_cost": 12906,
+    "horsepower": 110
+	},
+  {
+    "make": "Ford",
+    "model": "Focus SE 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 15460,
+    "dealer_cost": 14496,
+    "horsepower": 130
+	},
+  {
+    "make": "Ford",
+    "model": "Focus ZX5 5dr",
+    "all_wheel": "FALSE",
+    "msrp": 15580,
+    "dealer_cost": 14607,
+    "horsepower": 130
+	},
+  {
+    "make": "Honda",
+    "model": "Civic DX 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 13270,
+    "dealer_cost": 12175,
+    "horsepower": 115
+	},
+  {
+    "make": "Honda",
+    "model": "Civic HX 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 14170,
+    "dealer_cost": 12996,
+    "horsepower": 117
+	},
+  {
+    "make": "Honda",
+    "model": "Civic LX 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 15850,
+    "dealer_cost": 14531,
+    "horsepower": 115
+	},
+  {
+    "make": "Hyundai",
+    "model": "Accent 2dr hatch",
+    "all_wheel": "FALSE",
+    "msrp": 10539,
+    "dealer_cost": 10107,
+    "horsepower": 103
+	},
+  {
+    "make": "Hyundai",
+    "model": "Accent GL 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 11839,
+    "dealer_cost": 11116,
+    "horsepower": 103
+	},
+  {
+    "make": "Hyundai",
+    "model": "Accent GT 2dr hatch",
+    "all_wheel": "FALSE",
+    "msrp": 11939,
+    "dealer_cost": 11209,
+    "horsepower": 103
+	},
+  {
+    "make": "Hyundai",
+    "model": "Elantra GLS 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 13839,
+    "dealer_cost": 12781,
+    "horsepower": 138
+	},
+  {
+    "make": "Hyundai",
+    "model": "Elantra GT 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 15389,
+    "dealer_cost": 14207,
+    "horsepower": 138
+	},
+  {
+    "make": "Hyundai",
+    "model": "Elantra GT 4dr hatch",
+    "all_wheel": "FALSE",
+    "msrp": 15389,
+    "dealer_cost": 14207,
+    "horsepower": 138
+	},
+  {
+    "make": "Kia",
+    "model": "Optima LX 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 16040,
+    "dealer_cost": 14910,
+    "horsepower": 138
+	},
+  {
+    "make": "Kia",
+    "model": "Rio 4dr manual",
+    "all_wheel": "FALSE",
+    "msrp": 10280,
+    "dealer_cost": 9875,
+    "horsepower": 104
+	},
+  {
+    "make": "Kia",
+    "model": "Rio 4dr auto",
+    "all_wheel": "FALSE",
+    "msrp": 11155,
+    "dealer_cost": 10705,
+    "horsepower": 104
+	},
+  {
+    "make": "Kia",
+    "model": "Spectra 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 12360,
+    "dealer_cost": 11630,
+    "horsepower": 124
+	},
+  {
+    "make": "Kia",
+    "model": "Spectra GS 4dr hatch",
+    "all_wheel": "FALSE",
+    "msrp": 13580,
+    "dealer_cost": 12830,
+    "horsepower": 124
+	},
+  {
+    "make": "Kia",
+    "model": "Spectra GSX 4dr hatch",
+    "all_wheel": "FALSE",
+    "msrp": 14630,
+    "dealer_cost": 13790,
+    "horsepower": 124
+	},
+  {
+    "make": "Mazda",
+    "model": "Mazda3 i 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 15500,
+    "dealer_cost": 14525,
+    "horsepower": 148
+	},
+  {
+    "make": "Mini",
+    "model": "Cooper",
+    "all_wheel": "FALSE",
+    "msrp": 16999,
+    "dealer_cost": 15437,
+    "horsepower": 115
+	},
+  {
+    "make": "Mitsubishi",
+    "model": "Lancer ES 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 14622,
+    "dealer_cost": 13751,
+    "horsepower": 120
+	},
+  {
+    "make": "Mitsubishi",
+    "model": "Lancer LS 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 16722,
+    "dealer_cost": 15718,
+    "horsepower": 120
+	},
+  {
+    "make": "Nissan",
+    "model": "Sentra 1.8 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 12740,
+    "dealer_cost": 12205,
+    "horsepower": 126
+	},
+  {
+    "make": "Nissan",
+    "model": "Sentra 1.8 S 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 14740,
+    "dealer_cost": 13747,
+    "horsepower": 126
+	},
+  {
+    "make": "Pontiac",
+    "model": "Sunfire 1SA 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 15495,
+    "dealer_cost": 14375,
+    "horsepower": 140
+	},
+  {
+    "make": "Saturn",
+    "model": "Ion1 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 10995,
+    "dealer_cost": 10319,
+    "horsepower": 140
+	},
+  {
+    "make": "Saturn",
+    "model": "lon2 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 14300,
+    "dealer_cost": 13393,
+    "horsepower": 140
+	},
+  {
+    "make": "Saturn",
+    "model": "lon3 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 15825,
+    "dealer_cost": 14811,
+    "horsepower": 140
+	},
+  {
+    "make": "Saturn",
+    "model": "lon2 quad coupe 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 14850,
+    "dealer_cost": 13904,
+    "horsepower": 140
+	},
+  {
+    "make": "Saturn",
+    "model": "lon3 quad coupe 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 16350,
+    "dealer_cost": 15299,
+    "horsepower": 140
+	},
+  {
+    "make": "Scion",
+    "model": "xA 4dr hatch",
+    "all_wheel": "FALSE",
+    "msrp": 12965,
+    "dealer_cost": 12340,
+    "horsepower": 108
+	},
+  {
+    "make": "Suzuki",
+    "model": "Aeno S 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 12884,
+    "dealer_cost": 12719,
+    "horsepower": 155
+	},
+  {
+    "make": "Suzuki",
+    "model": "Aerio LX 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 14500,
+    "dealer_cost": 14317,
+    "horsepower": 155
+	},
+  {
+    "make": "Suzuki",
+    "model": "Forenza S 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 12269,
+    "dealer_cost": 12116,
+    "horsepower": 119
+	},
+  {
+    "make": "Suzuki",
+    "model": "Forenza EX 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 15568,
+    "dealer_cost": 15378,
+    "horsepower": 119
+	},
+  {
+    "make": "Toyota",
+    "model": "Corolla CE 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 14085,
+    "dealer_cost": 13065,
+    "horsepower": 130
+	},
+  {
+    "make": "Toyota",
+    "model": "Corolla S 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 15030,
+    "dealer_cost": 13650,
+    "horsepower": 130
+	},
+  {
+    "make": "Toyota",
+    "model": "Corolla LE 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 15295,
+    "dealer_cost": 13889,
+    "horsepower": 130
+	},
+  {
+    "make": "Toyota",
+    "model": "Echo 2dr manual",
+    "all_wheel": "FALSE",
+    "msrp": 10760,
+    "dealer_cost": 10144,
+    "horsepower": 108
+	},
+  {
+    "make": "Toyota",
+    "model": "Echo 2dr auto",
+    "all_wheel": "FALSE",
+    "msrp": 11560,
+    "dealer_cost": 10896,
+    "horsepower": 108
+	},
+  {
+    "make": "Toyota",
+    "model": "Echo 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 11290,
+    "dealer_cost": 10642,
+    "horsepower": 108
+	},
+  {
+    "make": "Buick",
+    "model": "Century Custom 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 22180,
+    "dealer_cost": 20351,
+    "horsepower": 175
+	},
+  {
+    "make": "Chevrolet",
+    "model": "Impala 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 21900,
+    "dealer_cost": 20095,
+    "horsepower": 180
+	},
+  {
+    "make": "Chevrolet",
+    "model": "Malibu 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 18995,
+    "dealer_cost": 17434,
+    "horsepower": 145
+	},
+  {
+    "make": "Chevrolet",
+    "model": "Malibu LS 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 20370,
+    "dealer_cost": 18639,
+    "horsepower": 200
+	},
+  {
+    "make": "Chevrolet",
+    "model": "Monte Carlo LS 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 21825,
+    "dealer_cost": 20026,
+    "horsepower": 180
+	},
+  {
+    "make": "Chrysler",
+    "model": "PT Cruiser 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 17985,
+    "dealer_cost": 16919,
+    "horsepower": 150
+	},
+  {
+    "make": "Chrysler",
+    "model": "PT Cruiser Limited 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 22000,
+    "dealer_cost": 20573,
+    "horsepower": 150
+	},
+  {
+    "make": "Chrysler",
+    "model": "Sebring 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 19090,
+    "dealer_cost": 17805,
+    "horsepower": 150
+	},
+  {
+    "make": "Chrysler",
+    "model": "Sebring Touring 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 21840,
+    "dealer_cost": 20284,
+    "horsepower": 200
+	},
+  {
+    "make": "Dodge",
+    "model": "Intrepid SE 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 22035,
+    "dealer_cost": 20502,
+    "horsepower": 200
+	},
+  {
+    "make": "Dodge",
+    "model": "Stratus SXT 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 18820,
+    "dealer_cost": 17512,
+    "horsepower": 150
+	},
+  {
+    "make": "Dodge",
+    "model": "Stratus SE 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 20220,
+    "dealer_cost": 18821,
+    "horsepower": 150
+	},
+  {
+    "make": "Ford",
+    "model": "Focus SVT 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 19135,
+    "dealer_cost": 17878,
+    "horsepower": 170
+	},
+  {
+    "make": "Ford",
+    "model": "Taurus LX 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 20320,
+    "dealer_cost": 18881,
+    "horsepower": 155
+	},
+  {
+    "make": "Ford",
+    "model": "Taurus SES Duratec 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 22735,
+    "dealer_cost": 20857,
+    "horsepower": 201
+	},
+  {
+    "make": "Honda",
+    "model": "Accord LX 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 19860,
+    "dealer_cost": 17924,
+    "horsepower": 160
+	},
+  {
+    "make": "Honda",
+    "model": "Accord EX 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 22260,
+    "dealer_cost": 20080,
+    "horsepower": 160
+	},
+  {
+    "make": "Honda",
+    "model": "Civic EX 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 17750,
+    "dealer_cost": 16265,
+    "horsepower": 127
+	},
+  {
+    "make": "Honda",
+    "model": "Civic Si 2dr hatch",
+    "all_wheel": "FALSE",
+    "msrp": 19490,
+    "dealer_cost": 17849,
+    "horsepower": 160
+	},
+  {
+    "make": "Honda",
+    "model": "Civic Hybrid 4dr manual (gas/electric)",
+    "all_wheel": "FALSE",
+    "msrp": 20140,
+    "dealer_cost": 18451,
+    "horsepower": 93
+	},
+  {
+    "make": "Honda",
+    "model": "Insight 2dr (gas/electric)",
+    "all_wheel": "FALSE",
+    "msrp": 19110,
+    "dealer_cost": 17911,
+    "horsepower": 73
+	},
+  {
+    "make": "Hyundai",
+    "model": "Sonata GLS 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 19339,
+    "dealer_cost": 17574,
+    "horsepower": 170
+	},
+  {
+    "make": "Hyundai",
+    "model": "Sonata LX 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 20339,
+    "dealer_cost": 18380,
+    "horsepower": 170
+	},
+  {
+    "make": "Kia",
+    "model": "Optima LX V6 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 18435,
+    "dealer_cost": 16850,
+    "horsepower": 170
+	},
+  {
+    "make": "Mazda",
+    "model": "Mazda3 s 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 17200,
+    "dealer_cost": 15922,
+    "horsepower": 160
+	},
+  {
+    "make": "Mazda",
+    "model": "Mazda6 i 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 19270,
+    "dealer_cost": 17817,
+    "horsepower": 160
+	},
+  {
+    "make": "Mercury",
+    "model": "Sable GS 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 21595,
+    "dealer_cost": 19848,
+    "horsepower": 155
+	},
+  {
+    "make": "Mini",
+    "model": "Cooper S",
+    "all_wheel": "FALSE",
+    "msrp": 19999,
+    "dealer_cost": 18137,
+    "horsepower": 163
+	},
+  {
+    "make": "Mitsubishi",
+    "model": "Galant ES 2.4L 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 19312,
+    "dealer_cost": 17957,
+    "horsepower": 160
+	},
+  {
+    "make": "Mitsubishi",
+    "model": "Lancer OZ Rally 4dr auto",
+    "all_wheel": "FALSE",
+    "msrp": 17232,
+    "dealer_cost": 16196,
+    "horsepower": 120
+	},
+  {
+    "make": "Nissan",
+    "model": "Altima S 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 19240,
+    "dealer_cost": 18030,
+    "horsepower": 175
+	},
+  {
+    "make": "Nissan",
+    "model": "Sentra SE-R 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 17640,
+    "dealer_cost": 16444,
+    "horsepower": 165
+	},
+  {
+    "make": "Oldsmobile",
+    "model": "Alero GX 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 18825,
+    "dealer_cost": 17642,
+    "horsepower": 140
+	},
+  {
+    "make": "Pontiac",
+    "model": "Grand Am GT 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 22450,
+    "dealer_cost": 20595,
+    "horsepower": 175
+	},
+  {
+    "make": "Pontiac",
+    "model": "Grand Prix GT1 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 22395,
+    "dealer_cost": 20545,
+    "horsepower": 200
+	},
+  {
+    "make": "Pontiac",
+    "model": "Sunfire 1SC 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 17735,
+    "dealer_cost": 16369,
+    "horsepower": 140
+	},
+  {
+    "make": "Saturn",
+    "model": "L300-2 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 21410,
+    "dealer_cost": 19801,
+    "horsepower": 182
+	},
+  {
+    "make": "Subaru",
+    "model": "Impreza 2.5 RS 4dr",
+    "all_wheel": "TRUE",
+    "msrp": 19945,
+    "dealer_cost": 18399,
+    "horsepower": 165
+	},
+  {
+    "make": "Subaru",
+    "model": "Legacy L 4dr",
+    "all_wheel": "TRUE",
+    "msrp": 20445,
+    "dealer_cost": 18713,
+    "horsepower": 165
+	},
+  {
+    "make": "Suzuki",
+    "model": "Verona LX 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 17262,
+    "dealer_cost": 17053,
+    "horsepower": 155
+	},
+  {
+    "make": "Toyota",
+    "model": "Camry LE 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 19560,
+    "dealer_cost": 17558,
+    "horsepower": 157
+	},
+  {
+    "make": "Toyota",
+    "model": "Camry LE V6 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 22775,
+    "dealer_cost": 20325,
+    "horsepower": 210
+	},
+  {
+    "make": "Toyota",
+    "model": "Camry Solara SE 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 19635,
+    "dealer_cost": 17722,
+    "horsepower": 157
+	},
+  {
+    "make": "Toyota",
+    "model": "Camry Solara SE V6 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 21965,
+    "dealer_cost": 19819,
+    "horsepower": 225
+	},
+  {
+    "make": "Toyota",
+    "model": "Prius 4dr (gas/electric)",
+    "all_wheel": "FALSE",
+    "msrp": 20510,
+    "dealer_cost": 18926,
+    "horsepower": 110
+	},
+  {
+    "make": "Volkswagen",
+    "model": "Golf GLS 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 18715,
+    "dealer_cost": 17478,
+    "horsepower": 115
+	},
+  {
+    "make": "Volkswagen",
+    "model": "GTI 1.8T 2dr hatch",
+    "all_wheel": "FALSE",
+    "msrp": 19825,
+    "dealer_cost": 18109,
+    "horsepower": 180
+	},
+  {
+    "make": "Volkswagen",
+    "model": "Jetta GLS TDI 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 21055,
+    "dealer_cost": 19638,
+    "horsepower": 100
+	},
+  {
+    "make": "Volkswagen",
+    "model": "New Beetle GLS 1.8T 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 21055,
+    "dealer_cost": 19638,
+    "horsepower": 150
+	},
+  {
+    "make": "Acura",
+    "model": "RSX Type S 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 23820,
+    "dealer_cost": 21761,
+    "horsepower": 200
+	},
+  {
+    "make": "Acura",
+    "model": "TSX 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 26990,
+    "dealer_cost": 24647,
+    "horsepower": 200
+	},
+  {
+    "make": "Audi",
+    "model": "A4 1.8T 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 25940,
+    "dealer_cost": 23508,
+    "horsepower": 170
+	},
+  {
+    "make": "BMW",
+    "model": "325i 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 28495,
+    "dealer_cost": 26155,
+    "horsepower": 184
+	},
+  {
+    "make": "Buick",
+    "model": "LeSabre Custom 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 26470,
+    "dealer_cost": 24282,
+    "horsepower": 205
+	},
+  {
+    "make": "Buick",
+    "model": "Regal LS 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 24895,
+    "dealer_cost": 22835,
+    "horsepower": 200
+	},
+  {
+    "make": "Buick",
+    "model": "Regal GS 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 28345,
+    "dealer_cost": 26047,
+    "horsepower": 240
+	},
+  {
+    "make": "Chevrolet",
+    "model": "Impala LS 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 25000,
+    "dealer_cost": 22931,
+    "horsepower": 200
+	},
+  {
+    "make": "Chevrolet",
+    "model": "Impala SS 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 27995,
+    "dealer_cost": 25672,
+    "horsepower": 240
+	},
+  {
+    "make": "Chevrolet",
+    "model": "Malibu LT 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 23495,
+    "dealer_cost": 21551,
+    "horsepower": 200
+	},
+  {
+    "make": "Chevrolet",
+    "model": "Monte Carlo SS 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 24225,
+    "dealer_cost": 22222,
+    "horsepower": 200
+	},
+  {
+    "make": "Chrysler",
+    "model": "300M 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 29865,
+    "dealer_cost": 27797,
+    "horsepower": 250
+	},
+  {
+    "make": "Chrysler",
+    "model": "Concorde LX 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 24130,
+    "dealer_cost": 22452,
+    "horsepower": 200
+	},
+  {
+    "make": "Chrysler",
+    "model": "Concorde LXi 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 26860,
+    "dealer_cost": 24909,
+    "horsepower": 232
+	},
+  {
+    "make": "Chrvsler PT Cruiser GT 4dr",
+    "model": "FALSE",
+    "all_wheel": "FALSE",
+    "msrp": 24172,
+    "dealer_cost": 2.4,
+    "horsepower": 21
+	},
+  {
+    "make": "Chrysler",
+    "model": "Sebring convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 25215,
+    "dealer_cost": 23451,
+    "horsepower": 150
+	},
+  {
+    "make": "Dodge",
+    "model": "Intrepid ES 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 24885,
+    "dealer_cost": 23058,
+    "horsepower": 232
+	},
+  {
+    "make": "Ford",
+    "model": "Crown Victoria 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 24345,
+    "dealer_cost": 22856,
+    "horsepower": 224
+	},
+  {
+    "make": "Ford",
+    "model": "Crown Victoria LX 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 27370,
+    "dealer_cost": 25105,
+    "horsepower": 224
+	},
+  {
+    "make": "Honda",
+    "model": "Accord LX V6 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 23760,
+    "dealer_cost": 21428,
+    "horsepower": 240
+	},
+  {
+    "make": "Honda",
+    "model": "Accord EX V6 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 26960,
+    "dealer_cost": 24304,
+    "horsepower": 240
+	},
+  {
+    "make": "Hyundai",
+    "model": "XG350 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 24589,
+    "dealer_cost": 22055,
+    "horsepower": 194
+	},
+  {
+    "make": "Hyundai",
+    "model": "XG350 L 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 26189,
+    "dealer_cost": 23486,
+    "horsepower": 194
+	},
+  {
+    "make": "Infinity",
+    "model": "G35 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 28495,
+    "dealer_cost": 26157,
+    "horsepower": 260
+	},
+  {
+    "make": "Infinity",
+    "model": "G35 Sport Coupe 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 29795,
+    "dealer_cost": 27536,
+    "horsepower": 280
+	},
+  {
+    "make": "Jaguar",
+    "model": "X-Type 2.5 4dr",
+    "all_wheel": "TRUE",
+    "msrp": 29995,
+    "dealer_cost": 27355,
+    "horsepower": 192
+	},
+  {
+    "make": "Kia",
+    "model": "Amanti 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 26000,
+    "dealer_cost": 23764,
+    "horsepower": 195
+	},
+  {
+    "make": "Mercedes-Benz",
+    "model": "C230 Sport 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 26060,
+    "dealer_cost": 24249,
+    "horsepower": 189
+	},
+  {
+    "make": "Mercedes-Benz",
+    "model": "C320 Sport 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 28370,
+    "dealer_cost": 26435,
+    "horsepower": 215
+	},
+  {
+    "make": "Mercury",
+    "model": "Grand Marquis GS 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 24695,
+    "dealer_cost": 23217,
+    "horsepower": 224
+	},
+  {
+    "make": "Mercury",
+    "model": "Grand Marquis LS Premium 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 29595,
+    "dealer_cost": 27148,
+    "horsepower": 224
+	},
+  {
+    "make": "Mercury",
+    "model": "Sable LS Premium 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 23895,
+    "dealer_cost": 21918,
+    "horsepower": 201
+	},
+  {
+    "make": "Mitsubishi",
+    "model": "Diamante LS 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 29282,
+    "dealer_cost": 27250,
+    "horsepower": 205
+	},
+  {
+    "make": "Mitsubishi",
+    "model": "Galant GTS 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 25700,
+    "dealer_cost": 23883,
+    "horsepower": 230
+	},
+  {
+    "make": "Nissan",
+    "model": "Altima SE 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 23290,
+    "dealer_cost": 21580,
+    "horsepower": 245
+	},
+  {
+    "make": "Nissan",
+    "model": "Maxima SE 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 27490,
+    "dealer_cost": 25182,
+    "horsepower": 265
+	},
+  {
+    "make": "Nissan",
+    "model": "Maxima SL 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 29440,
+    "dealer_cost": 26966,
+    "horsepower": 265
+	},
+  {
+    "make": "Oldsmobile",
+    "model": "Alero GLS 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 23675,
+    "dealer_cost": 21485,
+    "horsepower": 170
+	},
+  {
+    "make": "Pontiac",
+    "model": "Grand Prix GT2 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 24295,
+    "dealer_cost": 22284,
+    "horsepower": 200
+	},
+  {
+    "make": "Subaru",
+    "model": "Legacy GT 4dr",
+    "all_wheel": "TRUE",
+    "msrp": 25645,
+    "dealer_cost": 23336,
+    "horsepower": 165
+	},
+  {
+    "make": "Subaru",
+    "model": "Outback Limited Sedan 4dr",
+    "all_wheel": "TRUE",
+    "msrp": 27145,
+    "dealer_cost": 24687,
+    "horsepower": 165
+	},
+  {
+    "make": "Subaru",
+    "model": "Outback H6 4dr",
+    "all_wheel": "TRUE",
+    "msrp": 29345,
+    "dealer_cost": 26660,
+    "horsepower": 212
+	},
+  {
+    "make": "Toyota",
+    "model": "Avalon XL 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 26560,
+    "dealer_cost": 23693,
+    "horsepower": 210
+	},
+  {
+    "make": "Toyota",
+    "model": "Camry XLE V6 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 25920,
+    "dealer_cost": 23125,
+    "horsepower": 210
+	},
+  {
+    "make": "Toyota",
+    "model": "Camry Solara SLE V6 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 26510,
+    "dealer_cost": 23908,
+    "horsepower": 225
+	},
+  {
+    "make": "Volkswagen",
+    "model": "Jetta GLI VR6 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 23785,
+    "dealer_cost": 21686,
+    "horsepower": 200
+	},
+  {
+    "make": "Volkswagen",
+    "model": "New Beetle GLS convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 23215,
+    "dealer_cost": 21689,
+    "horsepower": 115
+	},
+  {
+    "make": "Volkswagen",
+    "model": "Passat GLS 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 23955,
+    "dealer_cost": 21898,
+    "horsepower": 170
+	},
+  {
+    "make": "Volvo",
+    "model": "S40 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 25135,
+    "dealer_cost": 23701,
+    "horsepower": 170
+	},
+  {
+    "make": "Acura",
+    "model": "TL 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 33195,
+    "dealer_cost": 30299,
+    "horsepower": 270
+	},
+  {
+    "make": "Audi",
+    "model": "A41.8T convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 35940,
+    "dealer_cost": 32506,
+    "horsepower": 170
+	},
+  {
+    "make": "Audi",
+    "model": "A4 3.0 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 31840,
+    "dealer_cost": 28846,
+    "horsepower": 220
+	},
+  {
+    "make": "Audi",
+    "model": "A4 3.0 Quattro 4dr manual",
+    "all_wheel": "TRUE",
+    "msrp": 33430,
+    "dealer_cost": 30366,
+    "horsepower": 220
+	},
+  {
+    "make": "Audi",
+    "model": "A4 3.0 Quattro 4dr auto",
+    "all_wheel": "TRUE",
+    "msrp": 34480,
+    "dealer_cost": 31388,
+    "horsepower": 220
+	},
+  {
+    "make": "Audi",
+    "model": "A6 3.0 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 36640,
+    "dealer_cost": 33129,
+    "horsepower": 220
+	},
+  {
+    "make": "Audi",
+    "model": "A6 3.0 Quattro 4dr",
+    "all_wheel": "TRUE",
+    "msrp": 39640,
+    "dealer_cost": 35992,
+    "horsepower": 220
+	},
+  {
+    "make": "BMW",
+    "model": "325Ci 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 30795,
+    "dealer_cost": 28245,
+    "horsepower": 184
+	},
+  {
+    "make": "BMW",
+    "model": "325Ci convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 37995,
+    "dealer_cost": 34800,
+    "horsepower": 184
+	},
+  {
+    "make": "BMW",
+    "model": "325xi 4dr",
+    "all_wheel": "TRUE",
+    "msrp": 30245,
+    "dealer_cost": 27745,
+    "horsepower": 184
+	},
+  {
+    "make": "BMW",
+    "model": "330i 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 35495,
+    "dealer_cost": 32525,
+    "horsepower": 225
+	},
+  {
+    "make": "BMW",
+    "model": "330Ci 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 36995,
+    "dealer_cost": 33890,
+    "horsepower": 225
+	},
+  {
+    "make": "BMW",
+    "model": "330xi 4dr",
+    "all_wheel": "TRUE",
+    "msrp": 37245,
+    "dealer_cost": 34115,
+    "horsepower": 225
+	},
+  {
+    "make": "BMW",
+    "model": "525i 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 39995,
+    "dealer_cost": 36620,
+    "horsepower": 184
+	},
+  {
+    "make": "Buick",
+    "model": "LeSabre Limited 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 32245,
+    "dealer_cost": 29566,
+    "horsepower": 205
+	},
+  {
+    "make": "Buick",
+    "model": "Park Avenue 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 35545,
+    "dealer_cost": 32244,
+    "horsepower": 205
+	},
+  {
+    "make": "Cadillac",
+    "model": "CTS VVT 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 30835,
+    "dealer_cost": 28575,
+    "horsepower": 255
+	},
+  {
+    "make": "Chrysler",
+    "model": "300M Special Edition 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 33295,
+    "dealer_cost": 30884,
+    "horsepower": 255
+	},
+  {
+    "make": "Chrysler",
+    "model": "Sebring Limited convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 30950,
+    "dealer_cost": 28613,
+    "horsepower": 200
+	},
+  {
+    "make": "Ford",
+    "model": "Crown Victoria LX Sport 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 30315,
+    "dealer_cost": 27756,
+    "horsepower": 239
+	},
+  {
+    "make": "Infinity",
+    "model": "G35 4dr",
+    "all_wheel": "TRUE",
+    "msrp": 32445,
+    "dealer_cost": 29783,
+    "horsepower": 260
+	},
+  {
+    "make": "Infinity",
+    "model": "I35 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 31145,
+    "dealer_cost": 28320,
+    "horsepower": 255
+	},
+  {
+    "make": "Jaguar",
+    "model": "X-Type 3.0 4dr",
+    "all_wheel": "TRUE",
+    "msrp": 33995,
+    "dealer_cost": 30995,
+    "horsepower": 227
+	},
+  {
+    "make": "Lexus",
+    "model": "ES 330 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 32350,
+    "dealer_cost": 28755,
+    "horsepower": 225
+	},
+  {
+    "make": "Lexus",
+    "model": "IS 300 4dr manual",
+    "all_wheel": "FALSE",
+    "msrp": 31045,
+    "dealer_cost": 27404,
+    "horsepower": 215
+	},
+  {
+    "make": "Lexus",
+    "model": "IS 300 4dr auto",
+    "all_wheel": "FALSE",
+    "msrp": 32415,
+    "dealer_cost": 28611,
+    "horsepower": 215
+	},
+  {
+    "make": "Lincoln",
+    "model": "LS V6 Luxury 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 32495,
+    "dealer_cost": 29969,
+    "horsepower": 232
+	},
+  {
+    "make": "Lincoln",
+    "model": "LS V6 Premium 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 36895,
+    "dealer_cost": 33929,
+    "horsepower": 232
+	},
+  {
+    "make": "Mercedes-Benz",
+    "model": "C240 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 32280,
+    "dealer_cost": 30071,
+    "horsepower": 168
+	},
+  {
+    "make": "Mercedes-Benz",
+    "model": "C240 4dr",
+    "all_wheel": "TRUE",
+    "msrp": 33480,
+    "dealer_cost": 31187,
+    "horsepower": 168
+	},
+  {
+    "make": "Mercedes-Benz",
+    "model": "C320 Sport 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 35920,
+    "dealer_cost": 33456,
+    "horsepower": 215
+	},
+  {
+    "make": "Mercedes-Benz",
+    "model": "C320 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 37630,
+    "dealer_cost": 35046,
+    "horsepower": 215
+	},
+  {
+    "make": "Mercedes-Benz",
+    "model": "C320 4dr",
+    "all_wheel": "TRUE",
+    "msrp": 38830,
+    "dealer_cost": 36162,
+    "horsepower": 215
+	},
+  {
+    "make": "Mercury",
+    "model": "Grand Marquis LS Ultimate 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 30895,
+    "dealer_cost": 28318,
+    "horsepower": 224
+	},
+  {
+    "make": "Mercury",
+    "model": "Marauder 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 34495,
+    "dealer_cost": 31558,
+    "horsepower": 302
+	},
+  {
+    "make": "Pontiac",
+    "model": "Bonneville GXP 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 35995,
+    "dealer_cost": 32997,
+    "horsepower": 275
+	},
+  {
+    "make": "Saab",
+    "model": "9-3 Arc Sport 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 30860,
+    "dealer_cost": 29269,
+    "horsepower": 210
+	},
+  {
+    "make": "Saab",
+    "model": "9-3 Aero 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 33360,
+    "dealer_cost": 31562,
+    "horsepower": 210
+	},
+  {
+    "make": "Saab",
+    "model": "9-5 Arc 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 35105,
+    "dealer_cost": 33011,
+    "horsepower": 220
+	},
+  {
+    "make": "Saab",
+    "model": "9-5 Aero 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 39465,
+    "dealer_cost": 37721,
+    "horsepower": 250
+	},
+  {
+    "make": "Subaru",
+    "model": "Outback H-6 VDC 4dr",
+    "all_wheel": "TRUE",
+    "msrp": 31545,
+    "dealer_cost": 28603,
+    "horsepower": 212
+	},
+  {
+    "make": "Toyota",
+    "model": "Avalon XLS 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 30920,
+    "dealer_cost": 27271,
+    "horsepower": 210
+	},
+  {
+    "make": "Volkswagen",
+    "model": "Passat GLX V6 4MOTION 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 33180,
+    "dealer_cost": 30583,
+    "horsepower": 190
+	},
+  {
+    "make": "Volkswagen",
+    "model": "Passat W8 4MOTION 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 39235,
+    "dealer_cost": 36052,
+    "horsepower": 270
+	},
+  {
+    "make": "Volvo",
+    "model": "S60 2.5 4dr",
+    "all_wheel": "TRUE",
+    "msrp": 31745,
+    "dealer_cost": 29916,
+    "horsepower": 208
+	},
+  {
+    "make": "Volvo",
+    "model": "S60 T5 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 34845,
+    "dealer_cost": 32902,
+    "horsepower": 247
+	},
+  {
+    "make": "Volvo",
+    "model": "S60 R 4dr",
+    "all_wheel": "TRUE",
+    "msrp": 37560,
+    "dealer_cost": 35382,
+    "horsepower": 300
+	},
+  {
+    "make": "Volvo",
+    "model": "S80 2.9 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 37730,
+    "dealer_cost": 35542,
+    "horsepower": 208
+	},
+  {
+    "make": "Volvo",
+    "model": "S80 2.5T 4dr",
+    "all_wheel": "TRUE",
+    "msrp": 37885,
+    "dealer_cost": 35688,
+    "horsepower": 194
+	},
+  {
+    "make": "Acura",
+    "model": "3.5 RL 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 43755,
+    "dealer_cost": 39014,
+    "horsepower": 225
+	},
+  {
+    "make": "Acura",
+    "model": "3.5 RL w/Navigation 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 46100,
+    "dealer_cost": 41100,
+    "horsepower": 225
+	},
+  {
+    "make": "Audi",
+    "model": "A4 3.0 convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 42490,
+    "dealer_cost": 38325,
+    "horsepower": 220
+	},
+  {
+    "make": "Audi",
+    "model": "A4 3.0 Quattro convertible 2dr",
+    "all_wheel": "TRUE",
+    "msrp": 44240,
+    "dealer_cost": 40075,
+    "horsepower": 220
+	},
+  {
+    "make": "Audi",
+    "model": "A6 2.7 Turbo Quattro 4dr",
+    "all_wheel": "TRUE",
+    "msrp": 42840,
+    "dealer_cost": 38840,
+    "horsepower": 250
+	},
+  {
+    "make": "Audi",
+    "model": "A6 4.2 Quattro 4dr",
+    "all_wheel": "TRUE",
+    "msrp": 49690,
+    "dealer_cost": 44936,
+    "horsepower": 300
+	},
+  {
+    "make": "Audi",
+    "model": "A8 L Quattro 4dr",
+    "all_wheel": "TRUE",
+    "msrp": 69190,
+    "dealer_cost": 64740,
+    "horsepower": 330
+	},
+  {
+    "make": "Audi",
+    "model": "S4 Quattro 4dr",
+    "all_wheel": "TRUE",
+    "msrp": 48040,
+    "dealer_cost": 43556,
+    "horsepower": 340
+	},
+  {
+    "make": "BMW",
+    "model": "330Ci convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 44295,
+    "dealer_cost": 40530,
+    "horsepower": 225
+	},
+  {
+    "make": "BMW",
+    "model": "530i 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 44995,
+    "dealer_cost": 41170,
+    "horsepower": 225
+	},
+  {
+    "make": "BMW",
+    "model": "545iA 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 54995,
+    "dealer_cost": 50270,
+    "horsepower": 325
+	},
+  {
+    "make": "BMW",
+    "model": "745i 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 69195,
+    "dealer_cost": 63190,
+    "horsepower": 325
+	},
+  {
+    "make": "BMW",
+    "model": "745Li 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 73195,
+    "dealer_cost": 66830,
+    "horsepower": 325
+	},
+  {
+    "make": "Buick",
+    "model": "Park Avenue Ultra 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 40720,
+    "dealer_cost": 36927,
+    "horsepower": 240
+	},
+  {
+    "make": "Cadillac",
+    "model": "Deville 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 45445,
+    "dealer_cost": 41650,
+    "horsepower": 275
+	},
+  {
+    "make": "Cadillac",
+    "model": "Deville DTS 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 50595,
+    "dealer_cost": 46362,
+    "horsepower": 300
+	},
+  {
+    "make": "Cadillac",
+    "model": "Seville SLS 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 47955,
+    "dealer_cost": 43841,
+    "horsepower": 275
+	},
+  {
+    "make": "Infinity",
+    "model": "M45 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 42845,
+    "dealer_cost": 38792,
+    "horsepower": 340
+	},
+  {
+    "make": "Infinity",
+    "model": "Q45 Luxury 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 52545,
+    "dealer_cost": 47575,
+    "horsepower": 340
+	},
+  {
+    "make": "Jaguar",
+    "model": "S-Type 3.0 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 43895,
+    "dealer_cost": 40004,
+    "horsepower": 235
+	},
+  {
+    "make": "Jaguar",
+    "model": "S-Type 4.2 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 49995,
+    "dealer_cost": 45556,
+    "horsepower": 294
+	},
+  {
+    "make": "Jaguar",
+    "model": "S-Type R 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 63120,
+    "dealer_cost": 57499,
+    "horsepower": 390
+	},
+  {
+    "make": "Jaguar",
+    "model": "Vanden Plas 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 68995,
+    "dealer_cost": 62846,
+    "horsepower": 294
+	},
+  {
+    "make": "Jaguar",
+    "model": "XJ8 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 59995,
+    "dealer_cost": 54656,
+    "horsepower": 294
+	},
+  {
+    "make": "Jaguar",
+    "model": "XJR 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 74995,
+    "dealer_cost": 68306,
+    "horsepower": 390
+	},
+  {
+    "make": "Lexus",
+    "model": "GS 300 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 41010,
+    "dealer_cost": 36196,
+    "horsepower": 220
+	},
+  {
+    "make": "Lexus",
+    "model": "GS 430 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 48450,
+    "dealer_cost": 42232,
+    "horsepower": 300
+	},
+  {
+    "make": "Lexus",
+    "model": "LS 430 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 55750,
+    "dealer_cost": 48583,
+    "horsepower": 290
+	},
+  {
+    "make": "Lincoln",
+    "model": "LS V8 Sport 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 40095,
+    "dealer_cost": 36809,
+    "horsepower": 280
+	},
+  {
+    "make": "Lincoln",
+    "model": "LS V8 Ultimate 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 43495,
+    "dealer_cost": 39869,
+    "horsepower": 280
+	},
+  {
+    "make": "Lincoln",
+    "model": "Town Car Signature 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 41815,
+    "dealer_cost": 38418,
+    "horsepower": 239
+	},
+  {
+    "make": "Lincoln",
+    "model": "Town Car Ultimate 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 44925,
+    "dealer_cost": 41217,
+    "horsepower": 239
+	},
+  {
+    "make": "Lincoln",
+    "model": "Town Car Ultimate L 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 50470,
+    "dealer_cost": 46208,
+    "horsepower": 239
+	},
+  {
+    "make": "Mercedes-Benz",
+    "model": "C32 AMG 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 52120,
+    "dealer_cost": 48522,
+    "horsepower": 349
+	},
+  {
+    "make": "Mercedes-Benz",
+    "model": "CL500 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 94820,
+    "dealer_cost": 88324,
+    "horsepower": 302
+	},
+  {
+    "make": "Mercedes-Benz",
+    "model": "CL600 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 128420,
+    "dealer_cost": 119600,
+    "horsepower": 493
+	},
+  {
+    "make": "Mercedes-Benz",
+    "model": "CLK320 coupe 2dr (convertible)",
+    "all_wheel": "FALSE",
+    "msrp": 45707,
+    "dealer_cost": 41966,
+    "horsepower": 215
+	},
+  {
+    "make": "Mercedes-Benz",
+    "model": "CLK500 coupe 2dr (convertible)",
+    "all_wheel": "FALSE",
+    "msrp": 52800,
+    "dealer_cost": 49104,
+    "horsepower": 302
+	},
+  {
+    "make": "Mercedes-Benz",
+    "model": "E320 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 48170,
+    "dealer_cost": 44849,
+    "horsepower": 221
+	},
+  {
+    "make": "Mercedes-Benz",
+    "model": "E500 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 57270,
+    "dealer_cost": 53382,
+    "horsepower": 302
+	},
+  {
+    "make": "Mercedes-Benz",
+    "model": "S430 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 74320,
+    "dealer_cost": 69168,
+    "horsepower": 275
+	},
+  {
+    "make": "Mercedes-Benz",
+    "model": "S500 4dr",
+    "all_wheel": "TRUE",
+    "msrp": 86970,
+    "dealer_cost": 80939,
+    "horsepower": 302
+	},
+  {
+    "make": "Saab",
+    "model": "9-3 Arc convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 40670,
+    "dealer_cost": 38520,
+    "horsepower": 210
+	},
+  {
+    "make": "Saab",
+    "model": "9-3 Aero convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 43175,
+    "dealer_cost": 40883,
+    "horsepower": 210
+	},
+  {
+    "make": "Volkswagen",
+    "model": "Phaeton 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 65000,
+    "dealer_cost": 59912,
+    "horsepower": 335
+	},
+  {
+    "make": "Volkswagen",
+    "model": "Phaeton W12 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 75000,
+    "dealer_cost": 69130,
+    "horsepower": 420
+	},
+  {
+    "make": "Volvo",
+    "model": "C70 LPT convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 40565,
+    "dealer_cost": 38203,
+    "horsepower": 197
+	},
+  {
+    "make": "Volvo",
+    "model": "C70 HPT convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 42565,
+    "dealer_cost": 40083,
+    "horsepower": 242
+	},
+  {
+    "make": "Volvo",
+    "model": "S80 T6 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 45210,
+    "dealer_cost": 42573,
+    "horsepower": 268
+	},
+  {
+    "make": "Acura",
+    "model": "NSX coupe 2dr manual S",
+    "all_wheel": "FALSE",
+    "msrp": 89765,
+    "dealer_cost": 79978,
+    "horsepower": 290
+	},
+  {
+    "make": "Audi",
+    "model": "RS 6 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 84600,
+    "dealer_cost": 76417,
+    "horsepower": 450
+	},
+  {
+    "make": "Audi",
+    "model": "TT 1.8 convertible 2dr (coupe)",
+    "all_wheel": "FALSE",
+    "msrp": 35940,
+    "dealer_cost": 32512,
+    "horsepower": 180
+	},
+  {
+    "make": "Audi",
+    "model": "TT 1.8 Quattro 2dr (convertible)",
+    "all_wheel": "TRUE",
+    "msrp": 37390,
+    "dealer_cost": 33891,
+    "horsepower": 225
+	},
+  {
+    "make": "Audi",
+    "model": "TT 3.2 coupe 2dr (convertible)",
+    "all_wheel": "TRUE",
+    "msrp": 40590,
+    "dealer_cost": 36739,
+    "horsepower": 250
+	},
+  {
+    "make": "BMW",
+    "model": "M3 coupe 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 48195,
+    "dealer_cost": 44170,
+    "horsepower": 333
+	},
+  {
+    "make": "BMW",
+    "model": "M3 convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 56595,
+    "dealer_cost": 51815,
+    "horsepower": 333
+	},
+  {
+    "make": "BMW",
+    "model": "Z4 convertible 2.5i 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 33895,
+    "dealer_cost": 31065,
+    "horsepower": 184
+	},
+  {
+    "make": "BMW",
+    "model": "Z4 convertible 3.0i 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 41045,
+    "dealer_cost": 37575,
+    "horsepower": 225
+	},
+  {
+    "make": "Cadillac",
+    "model": "XLR convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 76200,
+    "dealer_cost": 70546,
+    "horsepower": 320
+	},
+  {
+    "make": "Chevrolet",
+    "model": "Corvette 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 44535,
+    "dealer_cost": 39068,
+    "horsepower": 350
+	},
+  {
+    "make": "Chevrolet",
+    "model": "Corvette convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 51535,
+    "dealer_cost": 45193,
+    "horsepower": 350
+	},
+  {
+    "make": "Chrysler",
+    "model": "Crossfire 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 34495,
+    "dealer_cost": 32033,
+    "horsepower": 215
+	},
+  {
+    "make": "Dodge",
+    "model": "Viper SRT-10 convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 81795,
+    "dealer_cost": 74451,
+    "horsepower": 500
+	},
+  {
+    "make": "Ford",
+    "model": "Mustang 2dr (convertible)",
+    "all_wheel": "FALSE",
+    "msrp": 18345,
+    "dealer_cost": 16943,
+    "horsepower": 193
+	},
+  {
+    "make": "Ford",
+    "model": "Mustang GT Premium convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 29380,
+    "dealer_cost": 26875,
+    "horsepower": 260
+	},
+  {
+    "make": "Ford",
+    "model": "Thunderbird Deluxe convert w/hardtop 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 37530,
+    "dealer_cost": 34483,
+    "horsepower": 280
+	},
+  {
+    "make": "Honda",
+    "model": "S2000 convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 33260,
+    "dealer_cost": 29965,
+    "horsepower": 240
+	},
+  {
+    "make": "Hyundai",
+    "model": "Tiburon GT V6 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 18739,
+    "dealer_cost": 17101,
+    "horsepower": 172
+	},
+  {
+    "make": "Jaguar",
+    "model": "XK8 coupe 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 69995,
+    "dealer_cost": 63756,
+    "horsepower": 294
+	},
+  {
+    "make": "Jaguar",
+    "model": "XK8 convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 74995,
+    "dealer_cost": 68306,
+    "horsepower": 294
+	},
+  {
+    "make": "Jaguar",
+    "model": "XKR coupe 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 81995,
+    "dealer_cost": 74676,
+    "horsepower": 390
+	},
+  {
+    "make": "Jaguar",
+    "model": "XKR convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 86995,
+    "dealer_cost": 79226,
+    "horsepower": 390
+	},
+  {
+    "make": "Lexus",
+    "model": "SC 430 convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 63200,
+    "dealer_cost": 55063,
+    "horsepower": 300
+	},
+  {
+    "make": "Mazda",
+    "model": "MX-5 Miata convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 22388,
+    "dealer_cost": 20701,
+    "horsepower": 142
+	},
+  {
+    "make": "Mazda",
+    "model": "MX-5 Miata LS convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 25193,
+    "dealer_cost": 23285,
+    "horsepower": 142
+	},
+  {
+    "make": "Mazda",
+    "model": "RX-8 4dr automatic",
+    "all_wheel": "FALSE",
+    "msrp": 25700,
+    "dealer_cost": 23794,
+    "horsepower": 197
+	},
+  {
+    "make": "Mazda",
+    "model": "RX-8 4dr manual",
+    "all_wheel": "FALSE",
+    "msrp": 27200,
+    "dealer_cost": 25179,
+    "horsepower": 238
+	},
+  {
+    "make": "Mercedes-Benz",
+    "model": "SL500 convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 90520,
+    "dealer_cost": 84325,
+    "horsepower": 302
+	},
+  {
+    "make": "Mercedes-Benz",
+    "model": "SL55 AMG 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 121770,
+    "dealer_cost": 113388,
+    "horsepower": 493
+	},
+  {
+    "make": "Mercedes-Benz",
+    "model": "SL600 convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 126670,
+    "dealer_cost": 117854,
+    "horsepower": 493
+	},
+  {
+    "make": "Mercedes-Benz",
+    "model": "SLK230 convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 40320,
+    "dealer_cost": 37548,
+    "horsepower": 192
+	},
+  {
+    "make": "Mercedes-Benz",
+    "model": "SLK32 AMG 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 56170,
+    "dealer_cost": 52289,
+    "horsepower": 349
+	},
+  {
+    "make": "Mitsubishi",
+    "model": "Eclipse GTS 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 25092,
+    "dealer_cost": 23456,
+    "horsepower": 210
+	},
+  {
+    "make": "Mitsubishi",
+    "model": "Eclipse Spyder GT convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 26992,
+    "dealer_cost": 25218,
+    "horsepower": 210
+	},
+  {
+    "make": "Mitsubishi",
+    "model": "Lancer Evolution 4dr",
+    "all_wheel": "FALSE",
+    "msrp": 29562,
+    "dealer_cost": 27466,
+    "horsepower": 271
+	},
+  {
+    "make": "Nissan",
+    "model": "350Z coupe 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 26910,
+    "dealer_cost": 25203,
+    "horsepower": 287
+	},
+  {
+    "make": "Nissan",
+    "model": "350Z Enthusiast convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 34390,
+    "dealer_cost": 31845,
+    "horsepower": 287
+	},
+  {
+    "make": "Pontiac",
+    "model": "GTO 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 33500,
+    "dealer_cost": 30710,
+    "horsepower": 340
+	},
+  {
+    "make": "Porsche",
+    "model": "911 Carrera convertible 2dr (coupe)",
+    "all_wheel": "FALSE",
+    "msrp": 79165,
+    "dealer_cost": 69229,
+    "horsepower": 315
+	},
+  {
+    "make": "Porsche",
+    "model": "911 Carrera 4S coupe 2dr (convert)",
+    "all_wheel": "TRUE",
+    "msrp": 84165,
+    "dealer_cost": 72206,
+    "horsepower": 315
+	},
+  {
+    "make": "Porsche",
+    "model": "911 Targa coupe 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 76765,
+    "dealer_cost": 67128,
+    "horsepower": 315
+	},
+  {
+    "make": "Porsche",
+    "model": "911 GT2 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 192465,
+    "dealer_cost": 173560,
+    "horsepower": 477
+	},
+  {
+    "make": "Porsche",
+    "model": "Boxster convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 43365,
+    "dealer_cost": 37886,
+    "horsepower": 228
+	},
+  {
+    "make": "Porsche",
+    "model": "Boxster S convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 52365,
+    "dealer_cost": 45766,
+    "horsepower": 258
+	},
+  {
+    "make": "Subaru",
+    "model": "Impreza WRX 4dr",
+    "all_wheel": "TRUE",
+    "msrp": 25045,
+    "dealer_cost": 23022,
+    "horsepower": 227
+	},
+  {
+    "make": "Subaru",
+    "model": "Impreza WRX STi 4dr",
+    "all_wheel": "TRUE",
+    "msrp": 31545,
+    "dealer_cost": 29130,
+    "horsepower": 300
+	},
+  {
+    "make": "Toyota",
+    "model": "Celica GT-S 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 22570,
+    "dealer_cost": 20363,
+    "horsepower": 180
+	},
+  {
+    "make": "Toyota",
+    "model": "MR2 Spyder convertible 2dr",
+    "all_wheel": "FALSE",
+    "msrp": 25130,
+    "dealer_cost": 22787,
+    "horsepower": 138
+	},
+  {
+    "make": "Cadillac",
+    "model": "Escaladet",
+    "all_wheel": "FALSE",
+    "msrp": 52795,
+    "dealer_cost": 48377,
+    "horsepower": 295
+	},
+  {
+    "make": "Cadillac",
+    "model": "SRX V8",
+    "all_wheel": "FALSE",
+    "msrp": 46995,
+    "dealer_cost": 43523,
+    "horsepower": 320
+	},
+  {
+    "make": "Chevrolet",
+    "model": "Suburban 1500 LT",
+    "all_wheel": "FALSE",
+    "msrp": 42735,
+    "dealer_cost": 37422,
+    "horsepower": 295
+	},
+  {
+    "make": "Chevrolet",
+    "model": "Tahoe LT",
+    "all_wheel": "TRUE",
+    "msrp": 41465,
+    "dealer_cost": 36287,
+    "horsepower": 295
+	},
+  {
+    "make": "Dodge",
+    "model": "Durango SLT",
+    "all_wheel": "TRUE",
+    "msrp": 32235,
+    "dealer_cost": 29472,
+    "horsepower": 230
+	},
+  {
+    "make": "Ford",
+    "model": "Excursion 6.8 XLT",
+    "all_wheel": "TRUE",
+    "msrp": 41475,
+    "dealer_cost": 36494,
+    "horsepower": 310
+	},
+  {
+    "make": "Ford",
+    "model": "Expedition 4.6 XLT",
+    "all_wheel": "FALSE",
+    "msrp": 34560,
+    "dealer_cost": 30468,
+    "horsepower": 232
+	},
+  {
+    "make": "GMC",
+    "model": "Envoy XUV SLE",
+    "all_wheel": "FALSE",
+    "msrp": 31890,
+    "dealer_cost": 28922,
+    "horsepower": 275
+	},
+  {
+    "make": "GMC",
+    "model": "Yukon 1500 SLE",
+    "all_wheel": "FALSE",
+    "msrp": 35725,
+    "dealer_cost": 31361,
+    "horsepower": 285
+	},
+  {
+    "make": "GMC",
+    "model": "Yukon XL 2500 SLT",
+    "all_wheel": "TRUE",
+    "msrp": 46265,
+    "dealer_cost": 40534,
+    "horsepower": 325
+	},
+  {
+    "make": "Hummer",
+    "model": "H2",
+    "all_wheel": "TRUE",
+    "msrp": 49995,
+    "dealer_cost": 45815,
+    "horsepower": 316
+	},
+  {
+    "make": "Isuzu",
+    "model": "Ascender S",
+    "all_wheel": "TRUE",
+    "msrp": 31849,
+    "dealer_cost": 29977,
+    "horsepower": 275
+	},
+  {
+    "make": "Lincoln",
+    "model": "Navigator Luxury",
+    "all_wheel": "TRUE",
+    "msrp": 52775,
+    "dealer_cost": 46360,
+    "horsepower": 300
+	},
+  {
+    "make": "Nissan",
+    "model": "Pathfinder Armada SE",
+    "all_wheel": "FALSE",
+    "msrp": 33840,
+    "dealer_cost": 30815,
+    "horsepower": 305
+	},
+  {
+    "make": "Toyota",
+    "model": "Sequoia SR5",
+    "all_wheel": "TRUE",
+    "msrp": 35695,
+    "dealer_cost": 31827,
+    "horsepower": 240
+	},
+  {
+    "make": "Acura",
+    "model": "MDX",
+    "all_wheel": "TRUE",
+    "msrp": 36945,
+    "dealer_cost": 33337,
+    "horsepower": 265
+	},
+  {
+    "make": "BMW",
+    "model": "X3 3.0i",
+    "all_wheel": "TRUE",
+    "msrp": 37000,
+    "dealer_cost": 33873,
+    "horsepower": 225
+	},
+  {
+    "make": "BMW",
+    "model": "X5 4.4i",
+    "all_wheel": "TRUE",
+    "msrp": 52195,
+    "dealer_cost": 47720,
+    "horsepower": 325
+	},
+  {
+    "make": "Buick",
+    "model": "Rainier",
+    "all_wheel": "TRUE",
+    "msrp": 37895,
+    "dealer_cost": 34357,
+    "horsepower": 275
+	},
+  {
+    "make": "Buick",
+    "model": "Rendezvous CX",
+    "all_wheel": "FALSE",
+    "msrp": 26545,
+    "dealer_cost": 24085,
+    "horsepower": 185
+	},
+  {
+    "make": "Chevrolet",
+    "model": "TrailBlazer LT",
+    "all_wheel": "FALSE",
+    "msrp": 30295,
+    "dealer_cost": 27479,
+    "horsepower": 275
+	},
+  {
+    "make": "Ford",
+    "model": "Explorer XLT V6",
+    "all_wheel": "TRUE",
+    "msrp": 29670,
+    "dealer_cost": 26983,
+    "horsepower": 210
+	},
+  {
+    "make": "Honda",
+    "model": "Pilot LX",
+    "all_wheel": "TRUE",
+    "msrp": 27560,
+    "dealer_cost": 24843,
+    "horsepower": 240
+	},
+  {
+    "make": "Isuzu",
+    "model": "Rodeo S",
+    "all_wheel": "FALSE",
+    "msrp": 20449,
+    "dealer_cost": 19261,
+    "horsepower": 193
+	},
+  {
+    "make": "Jeep",
+    "model": "Grand Cherokee Laredo",
+    "all_wheel": "FALSE",
+    "msrp": 27905,
+    "dealer_cost": 25686,
+    "horsepower": 195
+	},
+  {
+    "make": "Kia",
+    "model": "Sorento LX",
+    "all_wheel": "FALSE",
+    "msrp": 19635,
+    "dealer_cost": 18630,
+    "horsepower": 192
+	},
+  {
+    "make": "Land Rover Range Rover HSE",
+    "model": "FALSE",
+    "all_wheel": "FALSE",
+    "msrp": 65807,
+    "dealer_cost": 4.4,
+    "horsepower": 12
+	},
+  {
+    "make": "Lexus",
+    "model": "GX 470",
+    "all_wheel": "TRUE",
+    "msrp": 45700,
+    "dealer_cost": 39838,
+    "horsepower": 235
+	},
+  {
+    "make": "Lexus",
+    "model": "LX 470",
+    "all_wheel": "TRUE",
+    "msrp": 64800,
+    "dealer_cost": 56455,
+    "horsepower": 235
+	},
+  {
+    "make": "Lexus",
+    "model": "RX 330",
+    "all_wheel": "TRUE",
+    "msrp": 39195,
+    "dealer_cost": 34576,
+    "horsepower": 230
+	},
+  {
+    "make": "Lincoln",
+    "model": "Aviator Ultimate",
+    "all_wheel": "FALSE",
+    "msrp": 42915,
+    "dealer_cost": 39443,
+    "horsepower": 302
+	},
+  {
+    "make": "Mercedes-Benz",
+    "model": "G500",
+    "all_wheel": "TRUE",
+    "msrp": 76870,
+    "dealer_cost": 71540,
+    "horsepower": 292
+	},
+  {
+    "make": "Mercedes-Benz",
+    "model": "ML500",
+    "all_wheel": "TRUE",
+    "msrp": 46470,
+    "dealer_cost": 43268,
+    "horsepower": 288
+	},
+  {
+    "make": "Mercury",
+    "model": "Mountaineer",
+    "all_wheel": "FALSE",
+    "msrp": 29995,
+    "dealer_cost": 27317,
+    "horsepower": 210
+	},
+  {
+    "make": "Mitsubishi",
+    "model": "Endeavor XLS",
+    "all_wheel": "TRUE",
+    "msrp": 30492,
+    "dealer_cost": 28330,
+    "horsepower": 215
+	},
+  {
+    "make": "Mitsubishi",
+    "model": "Montero XLS",
+    "all_wheel": "TRUE",
+    "msrp": 33112,
+    "dealer_cost": 30763,
+    "horsepower": 215
+	},
+  {
+    "make": "Nissan",
+    "model": "Pathfinder SE",
+    "all_wheel": "FALSE",
+    "msrp": 27339,
+    "dealer_cost": 25972,
+    "horsepower": 240
+	},
+  {
+    "make": "Pontiac",
+    "model": "Aztekt",
+    "all_wheel": "FALSE",
+    "msrp": 21595,
+    "dealer_cost": 19810,
+    "horsepower": 185
+	},
+  {
+    "make": "Porsche",
+    "model": "Cayenne S",
+    "all_wheel": "TRUE",
+    "msrp": 56665,
+    "dealer_cost": 49865,
+    "horsepower": 340
+	},
+  {
+    "make": "Saturn",
+    "model": "VUE",
+    "all_wheel": "TRUE",
+    "msrp": 20585,
+    "dealer_cost": 19238,
+    "horsepower": 143
+	},
+  {
+    "make": "Suzuki",
+    "model": "XL-7 EX",
+    "all_wheel": "FALSE",
+    "msrp": 23699,
+    "dealer_cost": 22307,
+    "horsepower": 185
+	},
+  {
+    "make": "Toyota",
+    "model": "4Runner SR5 V6",
+    "all_wheel": "FALSE",
+    "msrp": 27710,
+    "dealer_cost": 24801,
+    "horsepower": 245
+	},
+  {
+    "make": "Toyota",
+    "model": "Highlander V6",
+    "all_wheel": "TRUE",
+    "msrp": 27930,
+    "dealer_cost": 24915,
+    "horsepower": 230
+	},
+  {
+    "make": "Toyota",
+    "model": "Land Cruiser",
+    "all_wheel": "TRUE",
+    "msrp": 54765,
+    "dealer_cost": 47986,
+    "horsepower": 325
+	},
+  {
+    "make": "Volkswagen",
+    "model": "Touareg V6",
+    "all_wheel": "TRUE",
+    "msrp": 35515,
+    "dealer_cost": 32243,
+    "horsepower": 220
+	},
+  {
+    "make": "Volvo",
+    "model": "XC90 T6",
+    "all_wheel": "TRUE",
+    "msrp": 41250,
+    "dealer_cost": 38851,
+    "horsepower": 268
+	},
+  {
+    "make": "Chevrolet",
+    "model": "Tracker",
+    "all_wheel": "FALSE",
+    "msrp": 20255,
+    "dealer_cost": 19108,
+    "horsepower": 165
+	},
+  {
+    "make": "Ford",
+    "model": "Escape XLS",
+    "all_wheel": "TRUE",
+    "msrp": 22515,
+    "dealer_cost": 20907,
+    "horsepower": 201
+	},
+  {
+    "make": "Honda",
+    "model": "CR-V LX",
+    "all_wheel": "TRUE",
+    "msrp": 19860,
+    "dealer_cost": 18419,
+    "horsepower": 160
+	},
+  {
+    "make": "Honda",
+    "model": "Element LX",
+    "all_wheel": "TRUE",
+    "msrp": 18690,
+    "dealer_cost": 17334,
+    "horsepower": 160
+	},
+  {
+    "make": "Hyundai",
+    "model": "Santa Fe GLS",
+    "all_wheel": "FALSE",
+    "msrp": 21589,
+    "dealer_cost": 20201,
+    "horsepower": 173
+	},
+  {
+    "make": "Jeep",
+    "model": "Liberty Sport",
+    "all_wheel": "TRUE",
+    "msrp": 20130,
+    "dealer_cost": 18973,
+    "horsepower": 150
+	},
+  {
+    "make": "Jeep",
+    "model": "Wrangler Sahara convertible 2dr",
+    "all_wheel": "TRUE",
+    "msrp": 25520,
+    "dealer_cost": 23275,
+    "horsepower": 190
+	},
+  {
+    "make": "Land Rover Discovery SE",
+    "model": "FALSE",
+    "all_wheel": "FALSE",
+    "msrp": 35777,
+    "dealer_cost": 4.6,
+    "horsepower": 12
+	},
+  {
+    "make": "Land Rover Freelander SE",
+    "model": "FALSE",
+    "all_wheel": "FALSE",
+    "msrp": 23969,
+    "dealer_cost": 2.5,
+    "horsepower": 18
+	},
+  {
+    "make": "Mazda",
+    "model": "Tribute DX 2.0",
+    "all_wheel": "TRUE",
+    "msrp": 21087,
+    "dealer_cost": 19742,
+    "horsepower": 130
+	},
+  {
+    "make": "Mitsubishi",
+    "model": "Outlander LS",
+    "all_wheel": "FALSE",
+    "msrp": 18892,
+    "dealer_cost": 17569,
+    "horsepower": 160
+	},
+  {
+    "make": "Nissan",
+    "model": "Xterra XE V6",
+    "all_wheel": "FALSE",
+    "msrp": 20939,
+    "dealer_cost": 19512,
+    "horsepower": 180
+	},
+  {
+    "make": "Suzuki",
+    "model": "Vitara LX",
+    "all_wheel": "TRUE",
+    "msrp": 17163,
+    "dealer_cost": 16949,
+    "horsepower": 165
+	},
+  {
+    "make": "Toyota",
+    "model": "RAV4",
+    "all_wheel": "TRUE",
+    "msrp": 20290,
+    "dealer_cost": 18553,
+    "horsepower": 161
+	},
+  {
+    "make": "Audi",
+    "model": "A6 3.0 Avant Quattro",
+    "all_wheel": "TRUE",
+    "msrp": 40840,
+    "dealer_cost": 37060,
+    "horsepower": 220
+	},
+  {
+    "make": "Audi",
+    "model": "S4 Avant Quattro",
+    "all_wheel": "TRUE",
+    "msrp": 49090,
+    "dealer_cost": 44446,
+    "horsepower": 340
+	},
+  {
+    "make": "BMW",
+    "model": "325xi Sport",
+    "all_wheel": "TRUE",
+    "msrp": 32845,
+    "dealer_cost": 30110,
+    "horsepower": 184
+	},
+  {
+    "make": "Chevrolet",
+    "model": "Malibu Maxx LS",
+    "all_wheel": "FALSE",
+    "msrp": 22225,
+    "dealer_cost": 20394,
+    "horsepower": 200
+	},
+  {
+    "make": "Chrysler",
+    "model": "Pacifica",
+    "all_wheel": "FALSE",
+    "msrp": 31230,
+    "dealer_cost": 28725,
+    "horsepower": 250
+	},
+  {
+    "make": "Ford",
+    "model": "Focus ZTW",
+    "all_wheel": "FALSE",
+    "msrp": 17475,
+    "dealer_cost": 16375,
+    "horsepower": 130
+	},
+  {
+    "make": "Ford",
+    "model": "Taurus SE",
+    "all_wheel": "FALSE",
+    "msrp": 22290,
+    "dealer_cost": 20457,
+    "horsepower": 155
+	},
+  {
+    "make": "Infinity",
+    "model": "FX35",
+    "all_wheel": "FALSE",
+    "msrp": 34895,
+    "dealer_cost": 31756,
+    "horsepower": 280
+	},
+  {
+    "make": "Infinity",
+    "model": "FX45",
+    "all_wheel": "TRUE",
+    "msrp": 36395,
+    "dealer_cost": 33121,
+    "horsepower": 315
+	},
+  {
+    "make": "Kia",
+    "model": "Rio Cinco",
+    "all_wheel": "FALSE",
+    "msrp": 11905,
+    "dealer_cost": 11410,
+    "horsepower": 104
+	},
+  {
+    "make": "Lexus",
+    "model": "IS 300 SportCross",
+    "all_wheel": "FALSE",
+    "msrp": 32455,
+    "dealer_cost": 28647,
+    "horsepower": 215
+	},
+  {
+    "make": "Mercedes-Benz",
+    "model": "C240",
+    "all_wheel": "FALSE",
+    "msrp": 33780,
+    "dealer_cost": 31466,
+    "horsepower": 168
+	},
+  {
+    "make": "Mercedes-Benz",
+    "model": "E320",
+    "all_wheel": "FALSE",
+    "msrp": 50670,
+    "dealer_cost": 47174,
+    "horsepower": 221
+	},
+  {
+    "make": "Mercedes-Benz",
+    "model": "E500",
+    "all_wheel": "TRUE",
+    "msrp": 60670,
+    "dealer_cost": 56474,
+    "horsepower": 302
+	},
+  {
+    "make": "Mercury",
+    "model": "Sable GS",
+    "all_wheel": "FALSE",
+    "msrp": 22595,
+    "dealer_cost": 20748,
+    "horsepower": 155
+	},
+  {
+    "make": "Mitsubishi",
+    "model": "Lancer Sportback LS",
+    "all_wheel": "FALSE",
+    "msrp": 17495,
+    "dealer_cost": 16295,
+    "horsepower": 160
+	},
+  {
+    "make": "Nissan",
+    "model": "Murano SL",
+    "all_wheel": "FALSE",
+    "msrp": 28739,
+    "dealer_cost": 27300,
+    "horsepower": 245
+	},
+  {
+    "make": "Pontiac",
+    "model": "Vibe",
+    "all_wheel": "FALSE",
+    "msrp": 17045,
+    "dealer_cost": 15973,
+    "horsepower": 130
+	},
+  {
+    "make": "Saab",
+    "model": "9-5 Aero",
+    "all_wheel": "FALSE",
+    "msrp": 40845,
+    "dealer_cost": 38376,
+    "horsepower": 250
+	},
+  {
+    "make": "Saturn",
+    "model": "L300 2",
+    "all_wheel": "FALSE",
+    "msrp": 23560,
+    "dealer_cost": 21779,
+    "horsepower": 140
+	},
+  {
+    "make": "Scion",
+    "model": "xB",
+    "all_wheel": "FALSE",
+    "msrp": 14165,
+    "dealer_cost": 13480,
+    "horsepower": 108
+	},
+  {
+    "make": "Subaru",
+    "model": "Forester X",
+    "all_wheel": "TRUE",
+    "msrp": 21445,
+    "dealer_cost": 19646,
+    "horsepower": 165
+	},
+  {
+    "make": "Subaru",
+    "model": "Outback",
+    "all_wheel": "TRUE",
+    "msrp": 23895,
+    "dealer_cost": 21773,
+    "horsepower": 165
+	},
+  {
+    "make": "Suzuki",
+    "model": "Aerio SX",
+    "all_wheel": "TRUE",
+    "msrp": 16497,
+    "dealer_cost": 16291,
+    "horsepower": 155
+	},
+  {
+    "make": "Toyota",
+    "model": "Matrix XR",
+    "all_wheel": "FALSE",
+    "msrp": 16695,
+    "dealer_cost": 15156,
+    "horsepower": 130
+	},
+  {
+    "make": "Volkswagen",
+    "model": "Jetta GL",
+    "all_wheel": "FALSE",
+    "msrp": 19005,
+    "dealer_cost": 17427,
+    "horsepower": 115
+	},
+  {
+    "make": "Volkswagen",
+    "model": "Passat GLS 1.8T",
+    "all_wheel": "FALSE",
+    "msrp": 24955,
+    "dealer_cost": 22801,
+    "horsepower": 170
+	},
+  {
+    "make": "Volkswagen",
+    "model": "Passat W8",
+    "all_wheel": "FALSE",
+    "msrp": 40235,
+    "dealer_cost": 36956,
+    "horsepower": 270
+	},
+  {
+    "make": "Volvo",
+    "model": "V40",
+    "all_wheel": "FALSE",
+    "msrp": 26135,
+    "dealer_cost": 24641,
+    "horsepower": 170
+	},
+  {
+    "make": "Volvo",
+    "model": "XC70",
+    "all_wheel": "TRUE",
+    "msrp": 35145,
+    "dealer_cost": 33112,
+    "horsepower": 208
+	},
+  {
+    "make": "Chevrolet",
+    "model": "Astro",
+    "all_wheel": "TRUE",
+    "msrp": 26395,
+    "dealer_cost": 23954,
+    "horsepower": 190
+	},
+  {
+    "make": "Chevrolet",
+    "model": "Venture LS",
+    "all_wheel": "FALSE",
+    "msrp": 27020,
+    "dealer_cost": 24518,
+    "horsepower": 185
+	},
+  {
+    "make": "Chrysler",
+    "model": "Town and Country LX",
+    "all_wheel": "FALSE",
+    "msrp": 27490,
+    "dealer_cost": 25371,
+    "horsepower": 180
+	},
+  {
+    "make": "Chrysler",
+    "model": "Town and Country Limited",
+    "all_wheel": "FALSE",
+    "msrp": 38380,
+    "dealer_cost": 35063,
+    "horsepower": 215
+	},
+  {
+    "make": "Dodge",
+    "model": "Caravan SE",
+    "all_wheel": "FALSE",
+    "msrp": 21795,
+    "dealer_cost": 20508,
+    "horsepower": 150
+	},
+  {
+    "make": "Dodge",
+    "model": "Grand Caravan SXT",
+    "all_wheel": "TRUE",
+    "msrp": 32660,
+    "dealer_cost": 29812,
+    "horsepower": 215
+	},
+  {
+    "make": "Ford",
+    "model": "Freestar SE",
+    "all_wheel": "FALSE",
+    "msrp": 26930,
+    "dealer_cost": 24498,
+    "horsepower": 193
+	},
+  {
+    "make": "GMC",
+    "model": "Safari SLE",
+    "all_wheel": "FALSE",
+    "msrp": 25640,
+    "dealer_cost": 23215,
+    "horsepower": 190
+	},
+  {
+    "make": "Honda",
+    "model": "Odyssey LX",
+    "all_wheel": "FALSE",
+    "msrp": 24950,
+    "dealer_cost": 22498,
+    "horsepower": 240
+	},
+  {
+    "make": "Honda",
+    "model": "Odyssey EX",
+    "all_wheel": "FALSE",
+    "msrp": 27450,
+    "dealer_cost": 24744,
+    "horsepower": 240
+	},
+  {
+    "make": "Kia",
+    "model": "Sedona LX",
+    "all_wheel": "FALSE",
+    "msrp": 20615,
+    "dealer_cost": 19400,
+    "horsepower": 195
+	},
+  {
+    "make": "Mazda",
+    "model": "MPV ES",
+    "all_wheel": "FALSE",
+    "msrp": 28750,
+    "dealer_cost": 26600,
+    "horsepower": 200
+	},
+  {
+    "make": "Mercury",
+    "model": "Monterey Luxury",
+    "all_wheel": "FALSE",
+    "msrp": 33995,
+    "dealer_cost": 30846,
+    "horsepower": 201
+	},
+  {
+    "make": "Nissan",
+    "model": "Quest S",
+    "all_wheel": "FALSE",
+    "msrp": 24780,
+    "dealer_cost": 22958,
+    "horsepower": 240
+	},
+  {
+    "make": "Nissan",
+    "model": "Quest SE",
+    "all_wheel": "FALSE",
+    "msrp": 32780,
+    "dealer_cost": 30019,
+    "horsepower": 240
+	},
+  {
+    "make": "Oldsmobile",
+    "model": "Silhouette GL",
+    "all_wheel": "FALSE",
+    "msrp": 28790,
+    "dealer_cost": 26120,
+    "horsepower": 185
+	},
+  {
+    "make": "Pontiac",
+    "model": "Montana",
+    "all_wheel": "FALSE",
+    "msrp": 23845,
+    "dealer_cost": 21644,
+    "horsepower": 185
+	},
+  {
+    "make": "Pontiac",
+    "model": "Montana EWB",
+    "all_wheel": "TRUE",
+    "msrp": 31370,
+    "dealer_cost": 28454,
+    "horsepower": 185
+	},
+  {
+    "make": "Toyota",
+    "model": "Sienna CE",
+    "all_wheel": "FALSE",
+    "msrp": 23495,
+    "dealer_cost": 21198,
+    "horsepower": 230
+	},
+  {
+    "make": "Toyota",
+    "model": "Sienna XLE Limited",
+    "all_wheel": "FALSE",
+    "msrp": 28800,
+    "dealer_cost": 25690,
+    "horsepower": 230
+	},
+  {
+    "make": "Cadillac",
+    "model": "Escalade EXT",
+    "all_wheel": "TRUE",
+    "msrp": 52975,
+    "dealer_cost": 48541,
+    "horsepower": 345
+	},
+  {
+    "make": "Chevrolet",
+    "model": "Avalanche 1500",
+    "all_wheel": "TRUE",
+    "msrp": 36100,
+    "dealer_cost": 31689,
+    "horsepower": 295
+	},
+  {
+    "make": "Chevrolet",
+    "model": "Colorado Z85",
+    "all_wheel": "TRUE",
+    "msrp": 18760,
+    "dealer_cost": 17070,
+    "horsepower": 175
+	},
+  {
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Regular Cab",
+    "all_wheel": "FALSE",
+    "msrp": 20310,
+    "dealer_cost": 18480,
+    "horsepower": 200
+	},
+  {
+    "make": "Chevrolet",
+    "model": "Silverado SS",
+    "all_wheel": "TRUE",
+    "msrp": 40340,
+    "dealer_cost": 35399,
+    "horsepower": 300
+	},
+  {
+    "make": "Chevrolet",
+    "model": "SSR",
+    "all_wheel": "FALSE",
+    "msrp": 41995,
+    "dealer_cost": 39306,
+    "horsepower": 300
+	},
+  {
+    "make": "Dodge",
+    "model": "Dakota Regular Cab",
+    "all_wheel": "FALSE",
+    "msrp": 17630,
+    "dealer_cost": 16264,
+    "horsepower": 210
+	},
+  {
+    "make": "Dodge",
+    "model": "Dakota Club Cab",
+    "all_wheel": "FALSE",
+    "msrp": 20300,
+    "dealer_cost": 18670,
+    "horsepower": 210
+	},
+  {
+    "make": "Dodge",
+    "model": "Ram 1500 Regular Cab ST",
+    "all_wheel": "FALSE",
+    "msrp": 20215,
+    "dealer_cost": 18076,
+    "horsepower": 215
+	},
+  {
+    "make": "Ford",
+    "model": "F-150 Regular Cab XL",
+    "all_wheel": "FALSE",
+    "msrp": 22010,
+    "dealer_cost": 19490,
+    "horsepower": 231
+	},
+  {
+    "make": "Ford",
+    "model": "F-150 Supercab Lariat",
+    "all_wheel": "TRUE",
+    "msrp": 33540,
+    "dealer_cost": 29405,
+    "horsepower": 300
+	},
+  {
+    "make": "Ford",
+    "model": "Ranger 2.3 XL Regular Cab",
+    "all_wheel": "FALSE",
+    "msrp": 14385,
+    "dealer_cost": 13717,
+    "horsepower": 143
+	},
+  {
+    "make": "GMC",
+    "model": "Canyon Z85 SL Regular Cab",
+    "all_wheel": "FALSE",
+    "msrp": 16530,
+    "dealer_cost": 14877,
+    "horsepower": 175
+	},
+  {
+    "make": "GMC",
+    "model": "Sierra Extended Cab 1500",
+    "all_wheel": "FALSE",
+    "msrp": 25717,
+    "dealer_cost": 22604,
+    "horsepower": 285
+	},
+  {
+    "make": "GMC",
+    "model": "Sierra HD 2500",
+    "all_wheel": "TRUE",
+    "msrp": 29322,
+    "dealer_cost": 25759,
+    "horsepower": 300
+	},
+  {
+    "make": "GMC",
+    "model": "Sonoma Crew Cab",
+    "all_wheel": "TRUE",
+    "msrp": 25395,
+    "dealer_cost": 23043,
+    "horsepower": 190
+	},
+  {
+    "make": "Mazda",
+    "model": "B2300 SX Regular Cab",
+    "all_wheel": "FALSE",
+    "msrp": 14840,
+    "dealer_cost": 14070,
+    "horsepower": 143
+	},
+  {
+    "make": "Mazda",
+    "model": "B4000 SE Cab Plus",
+    "all_wheel": "TRUE",
+    "msrp": 22350,
+    "dealer_cost": 20482,
+    "horsepower": 207
+	},
+  {
+    "make": "Nissan",
+    "model": "Frontier King Cab XE V6",
+    "all_wheel": "TRUE",
+    "msrp": 19479,
+    "dealer_cost": 18253,
+    "horsepower": 180
+	},
+  {
+    "make": "Nissan",
+    "model": "Titan King Cab XE",
+    "all_wheel": "TRUE",
+    "msrp": 26650,
+    "dealer_cost": 24926,
+    "horsepower": 305
+	},
+  {
+    "make": "Subaru",
+    "model": "Baja",
+    "all_wheel": "TRUE",
+    "msrp": 24520,
+    "dealer_cost": 22304,
+    "horsepower": 165
+	},
+  {
+    "make": "Toyota",
+    "model": "Tacoma",
+    "all_wheel": "FALSE",
+    "msrp": 12800,
+    "dealer_cost": 11879,
+    "horsepower": 142
+	},
+  {
+    "make": "Toyota",
+    "model": "Tundra Regular Cab V6",
+    "all_wheel": "FALSE",
+    "msrp": 16495,
+    "dealer_cost": 14978,
+    "horsepower": 190
+  	},
+  {
+    "make": "Toyota",
+    "model": "Tundra Access Cab V6 SR5",
+    "all_wheel": "TRUE",
+    "msrp": 25935,
+    "dealer_cost": 23520,
+    "horsepower": 190
+  }
+]
