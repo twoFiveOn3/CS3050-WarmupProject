@@ -23,6 +23,8 @@ def parse(query_string: str):
     alphabetic_value   = Word(alphas) | multiword 
     boolean_value      = CaselessKeyword("true") | CaselessKeyword("false")
 
+    # numeric, alphabetic, and boolean field names are paired with values of the corresponding type
+    # this enables type checking within pyparsing
     numeric_triplet    = Group(numeric_field    + op + numeric_value)
     alphabetic_triplet = Group(alphabetic_field + op + alphabetic_value)
     boolean_triplet    = Group(boolean_field    + op + boolean_value)
@@ -39,3 +41,4 @@ def parse(query_string: str):
     # this is notably the only call to parseString
     parsed_query = query.parseString(query_string)	
     return parsed_query
+
