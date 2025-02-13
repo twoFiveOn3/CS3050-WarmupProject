@@ -62,6 +62,7 @@ def make_query(params: list):
     #doc_ref = None
     #doc_ref = []
     db = firestore.client()
+    print("Given string: ", params)
     #nest params further
     #TODO: help command 
     if len(params) < 1:
@@ -105,16 +106,16 @@ def make_query(params: list):
             filter=FieldFilter(field_2, operator_2, request_2)
             ).stream()
         
-    #cars = [Car.from_dict(doc.to_dict()) for doc in doc_ref]
-    cars = []
-    for car in doc_ref:
-        newCar = car.to_dict()
-        cars.append(Car(**newCar))
+    cars = [Car.from_dict(doc.to_dict()) for doc in doc_ref]
+    # cars = []
+    # for car in doc_ref:
+    #     newCar = car.to_dict()
+    #     cars.append(Car(**newCar))
 
     #print("THIS IS CARS", cars)
     if len(cars) == 0:
         print("No cars found")    
-        return 
+        #return
 
     if len(params) > 2:
         raise InterfaceError

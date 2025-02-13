@@ -897,12 +897,12 @@
     "horsepower": 232
 	},
   {
-    "make": "Chrvsler PT Cruiser GT 4dr",
-    "model": "FALSE",
+    "make": "Chrysler",
+    "model": "PT Cruiser GT 4dr",
     "all_wheel": "FALSE",
-    "msrp": 24172,
-    "dealer_cost": 2.4,
-    "horsepower": 21
+    "msrp": 25955,
+    "dealer_cost": 24172,
+    "horsepower": 220
 	},
   {
     "make": "Chrysler",
@@ -2561,12 +2561,12 @@
     "horsepower": 192
 	},
   {
-    "make": "Land Rover Range Rover HSE",
-    "model": "FALSE",
+    "make": "LandRover",
+    "model": "Range Rover HSE",
     "all_wheel": "FALSE",
-    "msrp": 65807,
-    "dealer_cost": 4.4,
-    "horsepower": 12
+    "msrp": 72250,
+    "dealer_cost": 65807,
+    "horsepower": 282
 	},
   {
     "make": "Lexus",
@@ -2777,20 +2777,20 @@
     "horsepower": 190
 	},
   {
-    "make": "Land Rover Discovery SE",
-    "model": "FALSE",
+    "make": "LandRover",
+    "model": "Discovery SE",
     "all_wheel": "FALSE",
-    "msrp": 35777,
-    "dealer_cost": 4.6,
-    "horsepower": 12
+    "msrp": 39250,
+    "dealer_cost": 35777,
+    "horsepower": 217
 	},
   {
-    "make": "Land Rover Freelander SE",
-    "model": "FALSE",
+    "make": "LandRover",
+    "model": "Freelander SE",
     "all_wheel": "FALSE",
-    "msrp": 23969,
-    "dealer_cost": 2.5,
-    "horsepower": 18
+    "msrp": 25995,
+    "dealer_cost": 23969,
+    "horsepower": 174
 	},
   {
     "make": "Mazda",
